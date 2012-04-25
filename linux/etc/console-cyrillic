@@ -1,0 +1,19 @@
+# This is the system wide configuration file for cyr(1).
+# In Debian it is used also by /etc/rcS.d/S61console-cyrillic
+# (Package: console-cyrillic)
+
+# LOOK:
+#     Change this to NO if you don't want this file to be altered by Debconf.
+# Debconf: YES
+
+# LOOK:
+#     Set this to NO if you don't want the package console-cyrillic
+#     to setup Cyrillic on console at boot-time.  Otherwise set it YES.
+# Bootsetup: NO
+
+style uni
+size 16
+encoding utf-8
+layout ru_ms
+options alt_shift_toggle win_switch
+ttys /dev/tty[1-6]
