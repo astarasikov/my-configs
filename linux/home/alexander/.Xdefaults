@@ -1,0 +1,22 @@
+URxvt.background:		Black
+URxvt.foreground:		Green
+#URxvt.transparent:		true
+URxvt.shading:			60
+URxvt.blurRadius:		10
+URxvt.scrollColor:		#505050
+URxvt.font:			xft:Terminus,11
+URxvt.scrollstyle:		plain
+URxvt.geometry:				90x30
+URxvt.color9:			#ff3f3f
+URxvt.color10:			#00ff00
+URxvt.color11:			#ffff3f
+URxvt.color12:			#3f3fff
+URxvt.color13:			#ff3fff
+URxvt.color14:			#3fffff
+
+URxvt.scrollBar_right:	true
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:	chromium-browser
+URxvt.matcher.button:	1
+URxvt.colorUL: 		#86a2be
+Xft.dpi :96
