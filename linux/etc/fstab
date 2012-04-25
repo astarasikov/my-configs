@@ -1,0 +1,19 @@
+# /etc/fstab: static file system information.
+#
+# <file system>		<mount point>	<type>	<options>				<dump>	<pass>
+proc			/proc			proc	defaults												0	0
+/dev/sda1		/				ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
+#/dev/sda3		/var			ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
+#/dev/sda5		/var/cache		ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
+tmpfs			/tmp            tmpfs       defaults,noatime,mode=1777                              0 0
+#/dev/sdb5		none			swap	sw														0	0
+
+/dev/sda3		/mnt/disk1		ext4	rw,errors=remount-ro,noatime,discard,nodiratime			1	2
+#/dev/cdrom1		/media/cdrom	auto	noauto,users				0	0
+
+#dm-managed deviced
+/dev/mapper/crypto_home	/home	ext4	errors=remount-ro,discard,nodiratime,noatime			1	2
+#/dev/mapper/crypto_emul	/mnt/emul	ext3	noauto,defaults,users,errors=remount-ro,noatime		0	0
+
+none					/var/rlog	tmpfs	defaults
+none					/sys/kernel/debug	debugfs	defaults

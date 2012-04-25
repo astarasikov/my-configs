@@ -1,0 +1,4 @@
+# <target name>	<source device>		<key file>	<options>
+crypto_home	/dev/sda5		none	luks,tries=3
+crypto_emul	/dev/sdb3	none	luks,tries=3,noearly,noauto,quiet
+#crypto_backup	/dev/sdb4	none	luks,tries=3
