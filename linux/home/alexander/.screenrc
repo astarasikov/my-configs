@@ -1,0 +1,11 @@
+startup_message off
+defutf8 on
+autodetach on
+allpartial on
+
+escape ``
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %w/%d %C%A "
+
+vbell off
