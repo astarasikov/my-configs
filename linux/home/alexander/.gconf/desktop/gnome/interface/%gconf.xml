@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="gtk_key_theme" mtime="1335049430" type="string">
+		<stringvalue>soft_green</stringvalue>
+	</entry>
+	<entry name="menus_have_tearoff" mtime="1335049417" type="bool" value="false"/>
+	<entry name="menus_have_icons" mtime="1335049412" type="bool" value="true"/>
+	<entry name="icon_theme" mtime="1335049389" type="string">
+		<stringvalue>Humanity-Colors</stringvalue>
+	</entry>
+	<entry name="buttons_have_icons" mtime="1335048845" type="bool" value="true"/>
+	<entry name="gtk_theme" mtime="1335048829" type="string">
+		<stringvalue>soft_green</stringvalue>
+	</entry>
+	<entry name="font_name" mtime="1335048810" type="string">
+		<stringvalue>Verdana 9</stringvalue>
+	</entry>
+	<entry name="document_font_name" mtime="1335048807" type="string">
+		<stringvalue>Sans 10</stringvalue>
+	</entry>
+	<entry name="cursor_blink" mtime="1335048802" type="bool" value="false"/>
+	<entry name="monospace_font_name" mtime="1335048798" type="string">
+		<stringvalue>Terminus 10</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="exec" mtime="1335048128" type="string">
+		<stringvalue>chromium-browser</stringvalue>
+	</entry>
+</gconf>
