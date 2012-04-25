@@ -7,7 +7,7 @@ sudo /usr/sbin/rfkill block all
 sudo /usr/sbin/rfkill unblock wifi
 eval `cat ~/.fehbg` &
 #xset m 5 1 #increase pointer speed
-xmodmap -e "pointer 1 2 3 5 4 7 6" #invert touchpad scrolling directions
+xmodmap -e "pointer = 1 2 3 5 4 7 6" #invert touchpad scrolling directions
 xscreensaver &
 autocutsel &
 eval `gpg-agent --daemon`
