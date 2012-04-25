@@ -1,0 +1,15 @@
+gtk-theme-name = "soft_green"
+gtk-icon-theme-name = "Humanity-Colors"
+gtk-font-name = "Verdana 9"
+
+gtk-menu-bar-popup-delay=0
+gtk-menu-popdown-delay=0
+gtk-menu-popup-delay=0
+
+gtk-recent-files-max-age=0
+
+style "default-font" {
+	fontset = "Verdana 9"
+}
+
+class "*" style "default-font"
