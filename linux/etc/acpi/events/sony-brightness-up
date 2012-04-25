@@ -1,0 +1,4 @@
+# /etc/acpi/events/sony-brightness-up
+
+event=video/brightnessup BRTUP 00000086 00000000
+action=/etc/acpi/sonybright.sh up
