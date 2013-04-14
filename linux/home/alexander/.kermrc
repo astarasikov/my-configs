@@ -1,0 +1,11 @@
+SET LINE /dev/ttyACM0
+SET speed 115200
+SET carrier-watch off
+SET handshake none
+SET flow-control none
+robust
+SET file type bin
+SET rec pack 1000
+SET send pack 1000
+SET window 5
+connect

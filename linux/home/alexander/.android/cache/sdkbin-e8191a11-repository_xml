@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sdk:sdk-addon
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sdk="http://schemas.android.com/sdk/android/addon/1">
+
+    <sdk:add-on>
+        <sdk:name>Real3D</sdk:name>
+        <sdk:api-level>10</sdk:api-level>
+        <sdk:vendor>LGE</sdk:vendor>
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android + Real3D APIs API 10, revision 2 </sdk:description>
+        <sdk:desc-url>http://developer.lgmobile.com/sdk/android/</sdk:desc-url>
+        <sdk:uses-license ref="lge-android-addon-license" />
+        <sdk:archives>
+            <sdk:archive os="any">
+                <sdk:size>78263552</sdk:size>
+                <sdk:checksum type="sha1">532882866d0cf81ee923e4e11f0057d9c5c4cab8</sdk:checksum>
+                <sdk:url>Real3D_SDK_api-10_r02.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:libs>
+        </sdk:libs>
+    </sdk:add-on>
+
+    <sdk:add-on>
+        <sdk:name>Real3D</sdk:name>
+        <sdk:api-level>8</sdk:api-level>
+        <sdk:vendor>LGE</sdk:vendor>
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android + Real3D APIs API 8, revision 1 </sdk:description>
+        <sdk:desc-url>http://developer.lgmobile.com/sdk/android/</sdk:desc-url>
+        <sdk:uses-license ref="lge-android-addon-license" />
+        <sdk:archives>
+            <sdk:archive os="any">
+                <sdk:size>57256424</sdk:size>
+                <sdk:checksum type="sha1">E3386FD3F50635C2C28BC2956AE1684003DBD3FB</sdk:checksum>
+                <sdk:url>Real3D_addon_api-8_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:libs>
+        </sdk:libs>
+    </sdk:add-on>
+
+    <sdk:license type="text" id="lge-android-addon-license">
+LG Real3D SDK
+LG Electronics Inc. ( "LG" )
+SOFTWARE LICENSE AGREEMENT
+
+PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT (THE "AGREEMENT") BEFORE INSTALLING THE SOFTWARE DEVELOPMENT KIT(S) AND RELATED EXPLANATORY MATERIALS (THE "SDK" ). BY INSTALLING THE SDK, YOU ACCEPT AND AGREE TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL THE SDK BY THE "CANCEL" BUTTON AT THE END OF THIS AGREEMENT.
+The "SDK" means the API information, sample code, tools, documentation, and other related items. Only those items placed on your computer extracted from the SDK archive are part of the SDK.
+The SDK is licensed to you by LG. This license grants you only a license to use the SDK. Its title, ownership and intellectual property rights shall remain in LG. LG retains all rights not expressly granted to you in this license including, but not limited to, rights reserved or protected by patent, copyright, trade secret, intellectual property laws and international treaty provisions. The license granted hereunder shall not be construed to confer any rights upon you by implication, estoppel or otherwise as to the SDK not specifically set forth herein
+The SDK may not be communicated, distributed, or reproduced or transmitted in any form or by any means, electronic, mechanical, or otherwise, for any purpose, without the prior written permission of LG.
+You expressly acknowledge and agree that use of the SDK is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy and error is with you. The SDK is provided "AS IS" and without warranty of any kind. LG does not warrant that the functions contained in the SDK will meet your requirements, that the operation of the SDK will be uninterrupted or error-free, or that defects in the SDK will be corrected.
+LG EXPRESSLY DISCLAIMS ALL WARRANTIES AND/OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY OR SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. 
+UNDER NO CIRCUMSTANCES, INCLUDING NEGLIGENCE, SHALL LG BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO THIS LICENSE. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THIS LIMITATION MAY NOT APPLY TO YOU. 
+You agree to indemnify and hold LG harmless for any and all claims either directly or indirectly arising out of or relating to your breach of this Agreement. 
+This Agreement will terminate automatically without notice from LG if you fail to comply with any term(s) of this Agreement. Upon the termination of this Agreement, you shall cease all use of the SDK and destroy all copies, full or partial, of the SDK.
+This Agreement shall be governed by the laws of Republic of Korea without regard to conflict of law provisions. Any disputes arising over the interpretation of the provisions contained in this Agreement shall be subject to the sole and exclusive jurisdiction of the Seoul District Court in the Republic of Korea.
+    </sdk:license>
+</sdk:sdk-addon>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by Qt Creator 2.6.1, 2013-01-05T19:37:11. -->
+<qtcreator>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAIAAACIAC8AaABvAG0AZQAvAGEAbABlAHgAYQBuAGQAZQByAC8AdwBvAHIAawBzAHAAYQBjAGUALwBwAHIAbwBnAHIAYQBtAG0AaQBuAGcALwBwAHIAbwBqAGUAYwB0AHMALwBxAHQALwBHAEwAUwBMAFQAZQBzAHQAcwAvAG0AYQBpAG4ALgBjAHAAcAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAJIALwBoAG8AbQBlAC8AYQBsAGUAeABhAG4AZABlAHIALwB3AG8AcgBrAHMAcABhAGMAZQAvAHAAcgBvAGcAcgBhAG0AbQBpAG4AZwAvAHAAcgBvAGoAZQBjAHQAcwAvAHEAdAAvAEcATABTAEwAVABlAHMAdABzAC8ARwBMAFMATABUAGUAcwB0AHMALgBwAHIAbwAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAACSAC8AaABvAG0AZQAvAGEAbABlAHgAYQBuAGQAZQByAC8AdwBvAHIAawBzAHAAYQBjAGUALwBwAHIAbwBnAHIAYQBtAG0AaQBuAGcALwBwAHIAbwBqAGUAYwB0AHMALwBxAHQALwBHAEwAUwBMAFQAZQBzAHQAcwAvAEcATABTAEwAVABlAHMAdABzAC4AcAByAG8AAAAaAEcATABTAEwAVABlAHMAdABzAC4AcAByAG8AAAARUXQ0LnByb0ZpbGVFZGl0b3IAAACIAC8AaABvAG0AZQAvAGEAbABlAHgAYQBuAGQAZQByAC8AdwBvAHIAawBzAHAAYQBjAGUALwBwAHIAbwBnAHIAYQBtAG0AaQBuAGcALwBwAHIAbwBqAGUAYwB0AHMALwBxAHQALwBHAEwAUwBMAFQAZQBzAHQAcwAvAG0AYQBpAG4ALgBjAHAAcAAAABAAbQBhAGkAbgAuAGMAcABwAAAAE0NwcFBsdWdpbi5DKytFZGl0b3IAAADjAAAADWN1cnJlbnRlZGl0b3IAAACIAC8AaABvAG0AZQAvAGEAbABlAHgAYQBuAGQAZQByAC8AdwBvAHIAawBzAHAAYQBjAGUALwBwAHIAbwBnAHIAYQBtAG0AaQBuAGcALwBwAHIAbwBqAGUAYwB0AHMALwBxAHQALwBHAEwAUwBMAFQAZQBzAHQAcwAvAG0AYQBpAG4ALgBjAHAAcAAAACYAQwBwAHAAUABsAHUAZwBpAG4ALgBDACsAKwBFAGQAaQB0AG8AcgAAABgAAAABAAAAAAAAAAAAAAABAAAAFwAAAAA=</value>
+ </data>
+ <data>
+  <variable>OpenEditors</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/alexander/workspace/programming/projects/qt/GLSLTests/GLSLTests.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/alexander/workspace/programming/projects/qt/GLSLTests/GLSLTests.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DebuggerToolTips</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">session</value>
+   <value type="QString">/home/alexander/workspace/programming/projects/qt/GLSLTests/GLSLTests.pro</value>
+   <value type="QString">/home/alexander/workspace/programming/projects/qt/GLSLTests</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DebuggerToolTips</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sdk:sdk-addon
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sdk="http://schemas.android.com/sdk/android/addon/1">
+
+    <sdk:add-on>
+        <sdk:name>HTC OpenSense SDK</sdk:name>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:vendor>HTC</sdk:vendor>
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>HTC OpenSense SDK addon, API 15, revision 1</sdk:description>
+        <sdk:desc-url>http://htcdev.com</sdk:desc-url>
+        <sdk:uses-license ref="androidaddonlicense" />
+        <sdk:archives>
+            <sdk:archive os="any">
+                <sdk:size>27230698</sdk:size>
+                <sdk:checksum type="sha1">2d9ca1f0034d431b7f5096d3b4dd3574ac848d46</sdk:checksum>
+                <sdk:url>http://dl.htcdev.com/sdk/download/htc_opensense_sdk.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:libs>
+        </sdk:libs>
+    </sdk:add-on>
+
+    <sdk:license type="text" id="androidaddonlicense">SOFTWARE DEVELOPERS TECHNOLOGY LICENSE AGREEMENT
+
+1.	LICENSE GRANTS.
+
+1.1	License Grant for the Software Development Kit ("SDK").  Subject to the terms and conditions set forth herein, HTC Corporation ("HTC") hereby grants you (as an individual or single entity) ("Developer") the following non-exclusive, non-transferable, royalty-free license rights:
+
+You may use the SDK, which consists of the API manual and developer's guide, including short code examples, sample code, Java binary library (.jar file) and Android application (.apk), to create, modify, copy and distribute end-user software ("Application Programs") for the sole purpose of running on the Android platform on compatible  Android-based devices.   may provide to Developer certain sample source code with the SDK.  Developer may use, modify and distribute, in object code form only, the sample source code included with SDK. Developer shall not and is strictly prohibited from distributing or any way disseminating any source code without the express prior written consent of a duly authorized representative of .  Such use must be in conjunction with and as part of the Application Programs and the Application Programs must add significant value to the sample code.
+
+1.2	New Releases.  If  makes a new release of any component of the SDK available, then: (i) Developer shall use reasonable efforts to cease reproduction and distribution of the older version of the SDK component and, (ii) shall promptly commence reproduction and distribution of the new release of the SDK component with Developer's Application Programs, provided Developer may deplete its existing inventory of Developer's Application Program containing a prior version of the SDK.
+
+1.3	License Back.  In consideration of the licenses granted to Developer under this Agreement, and other consideration provided by  to Developer under this Agreement, Developer hereby grants to  and to 's licensees of the SDK, but solely in connection with licensed use or other exploitation of the SDK, or derivatives thereof, a limited non-exclusive, royalty-free, perpetual and world-wide license, under any Developer patent rights that contain claims covering or directed to the SDK, or derivatives thereof, and use of the SDK, or derivatives thereof, that are necessary to make, have made, use, sell, offer for sale, import, distribute and/or otherwise exploit the SDK.
+
+2.	PROPRIETARY RIGHTS
+
+2.1	HTC Ownership.  Developer acknowledges and agrees not to contest that  is the sole and exclusive owner of all rights, title and interest, including copyrights, trademarks, patents, trade secrets, sample code, and any components thereof, and other intellectual property rights to all of the SDK and its associated documentation and the derivatives thereof.   claims and reserves all rights and benefits afforded under federal and state law in all software, firmware, hardware and user materials that constitute the SDK, and in all system documentation related thereto.  The parties agree that all inventions, product improvements, and modifications to the SDK conceived of or made by , including those that are based, in whole or in part, on Developer's feedback, suggestions, or recommended improvements are the exclusive property of , and all right, title, and interest in and to any such invention, product improvement, or modification to the SDK will vest solely in .  Developer shall keep the SDK free and clear of all liens, claims, and encumbrances, and any act of Developer purporting to create any lien, claim or encumbrance on or with respect to the SDK will be void and without effect.  Except for the rights expressly enumerated herein, Developer is not granted any right to patents, copyrights, trade secrets, trade names, trademarks (whether or not registered), or any other rights or licenses with respect to the SDK.
+
+The third-party licensors of  with respect to the SDK, if any, are third-party beneficiaries of the rights and obligations of the parties hereunder and may, in their sole discretion, enforce such rights and obligations against the Developer at law or in equity.
+
+Developer shall preserve by written agreement by reproducing and including a copy of its end-user License Agreement, all restrictions and obligations of 's copyright and other proprietary notices and disclaimer of warranty, as provided in Section 4 ("Warranties"), with any of the SDK's derivative software and associated documentation which Developer uses or distributes in conjunction with and as part of its Application Programs as permitted herein.
+
+2.2	Proprietary Notices.  Developer acknowledges and agrees that the SDK contains copyrighted material, trade secrets and other  proprietary information and that such material is protected by copyright laws, international copyright treaties, and trade secret laws, as well as other intellectual property laws.  In order to protect the copyright and other ownership interests of  and its licensors, Developer agrees that, as a condition of its rights hereunder, (i) all copyright and other proprietary notices ("Notices") which are embedded in the SDK and its associated documentation shall remain as embedded, in the same manner as embedded by , in each copy of the SDK, (ii) all Notices which appear on such materials shall appear, in the same manner on each tangible copy or any portion thereof or documentation therefore, (iii) Developer shall insure that all Notices which appear on such materials shall appear, in the same manner, on each tangible copy or portion thereof or documentation therefore, and (iv) Developer shall preserve and shall not otherwise obscure, nor shall Developer permit deletion or alteration of any copyright notice and proprietary notices required by  or its third-party suppliers on all copies of the SDK, including partial copies or undated versions thereof.
+
+2.3	Trade Secrets.  Developer acknowledges and agrees that those techniques, algorithms, and processes contained in the SDK which have been developed, acquired, or licensed by HTC, or any modification or extraction thereof, constitute trade secrets of HTC or its licensors, and Developer agrees that they will be used by Developer only in accordance with the terms of this Agreement.  Developer shall, by all necessary means, protect the proprietary rights of  in the SDK and the Application Programs, including without limitation, securing, and/or maintaining employee confidentiality agreements, security access to the SDK, password protection, numbered copies, and all legal and equitable remedies available.  Developer shall take all reasonable steps to protect the Confidential Information from unauthorized use, distribution, or disclosure.  For purposes of this Agreement, the term "Confidential Information" means: (i) the SDK and Applications Programs, whether or not marked "Confidential", "Proprietary" or the like; (ii) all performance data and information and all written reports relating to the SDK whether or not marked "Confidential", "Proprietary" or the like; or (iii) any other information or material designated as "Confidential" or "Proprietary" or the like by .  Confidential Information does not include information which: (a) was known to Developer without a duty of confidentiality before receipt from , provided Developer can demonstrate such prior knowledge with adequate evidence; (b) is or becomes a matter of public knowledge through no fault or action of Developer or any breach of any confidentiality obligation; (c) is rightfully received by Developer from a third-party without a duty of confidentiality; (d) is disclosed by  to a third-party without a duty of confidentiality on the third-party; or (e) is independently developed by Developer without use of the Confidential Information, by employees or other agents of Developer who have not been exposed to the Confidential Information, provided that Developer can demonstrate such independent development with adequate evidence.  If Developer is required to disclose Confidential Information to a government body or court of law, Developer agrees to give  notice so that  may contest the disclosure or obtain a protective order.  Developer shall not disseminate any portion or modified portion of the SDK or the Application Programs, or any computer software or hardware embodying or based upon the foregoing, to any third-party for any reason whatsoever, except as expressly provided for in this Agreement.
+
+2.4	Unauthorized Distribution or Copying.  Developer acknowledges and agrees that it is prohibited from copying, distributing, duplicating, or otherwise reproducing all or any part or translated part of the SDK, except as provided in this Agreement.  Developer acknowledges and agrees that it may not offer to sell, sell or cause the SDK to be resold or otherwise offer the SDK to any person or entity for any financial or other remuneration or consideration of any kind. Developer further agrees that (i) copying, distributing, duplicating, or otherwise reproducing all or any part or translated part of the SDK, except as expressly provided for in this Agreement or (ii) failing to protect the SDK, shall be considered a material breach of this Agreement.
+
+2.5	Changes to the SDK.  All right title and interest in the SDK including, but not limited to, any designs, modifications, or other changes made by Developer, shall remain the property of HTC.  Any trademarks, copyrights or other intellectual property rights associated therewith are and shall remain the property of  (or its licensors), subject to the license granted in Section 1.
+
+2.6	Derivative Rights.  HTC shall have derivative rights to any interface code written for or used with the SDK by Developer.
+
+2.7	Proprietary Information.  Except as otherwise provided for herein, Developer shall not, nor permit any third-party to: (i) reverse-engineer, unlock, decompile, disassemble or otherwise translate any object code version of the SDK; (ii) otherwise discover or replicate the source code from which such object code may be generated; or (iii) except as expressly set forth herein, modify or make derivative works of the SDK.
+
+2.8	Commencement and Termination.  This Agreement is effective from the first date you download the SDK.  You may terminate this Agreement at any time by permanently deleting or destroying at your own costs, the SDK and all backup copies, and all related materials provided by HTC.  Your end-user rights automatically and immediately terminate without notice from  if you fail to comply with any provision of this Agreement.  In such an event, you must immediately delete or destroy, or return at your own cost, the SDK, all backup copies, and all related material.
+
+2.9	License for the SDK Only.  DEVELOPER ACKNOWLEDGES AND AGREES THAT THE SCOPE OF THE LICENSE GRANTED IN THIS AGREEMENT IS LIMITED TO  INTELLECTUAL PROPERTY RIGHTS EMBODIED IN THE SDK PROVIDED BY  TO DEVELOPER.  EXCEPT AS EXPRESSLY PROVIDED HEREIN, NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY OTHER  OR TO ANY THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS IS GRANTED IN THIS AGREEMENT.
+
+3.	EXPENSES.
+
+3.1	Costs Incurred.  Developer is solely responsible for costs and expenses incurred in connection with the distribution of the SDK and Application Programs.   shall have no obligation to provide maintenance, support, upgrades or new releases to Developer or to any distributee of the SDK or any Application Program.
+
+3.2	Taxes.  Developer shall pay and indemnify and hold  harmless from any sales, use, excise, import, or export, value added or similar tax or duty relating to the licensing of the SDK and Application Programs, including penalties and interest, as well as any costs, including attorneys' fees, associated with the collection or withholding thereof.
+
+4.	WARRANTIES; WARRANTY DISCLAIMERS; AND REMEDIES
+
+4.1.	No Defense Obligations or Other Licenses.  Nothing contained in this Agreement will be construed as:
+
+a.	an agreement to bring or prosecute actions or suits against third parties for infringement of any of the rights licensed hereby, or conferring any rights to bring or prosecute actions or suits against third parties for infringement;
+
+b.	conferring any rights to use in advertising, publicity, or otherwise, any trademark, trade name or names, or any contraction, abbreviation, or simulation thereof of ; or any third-party except expressly provided otherwise herein; or
+
+c.	except as expressly set forth herein, conferring by implication, estoppel, or otherwise, upon Developer, any license or other right under any  patents, copyrights or trade secrets owned or controlled by  now or in the future.
+
+4.2.	Availability.  Nothing contained in this Agreement will be construed as a warranty or representation by  to market, sell, offer to sell, distribute or otherwise maintain production or development of any  cellular phone, device, or other hardware or software with which the SDK may be used or to otherwise support or provide updates to the SDK.
+
+4.3.	SDK Warranty Disclaimer.  YOU HEREBY ACKNOWLEGE AND SPECIFICALLY AGREE THAT THE SDK IS PROVIDED "AS IS" AND WITHOUT A WARRANTY OF ANY KIND WHATSOEVER TO THE MAXIMUM EXTENT PERMITTED BY LAW.   AND ITS THIRD-PARTY SUPPLIERS, IF ANY, DISCLAIM ANY AND ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, ACCURACY OR COMPLETENESS OF RESPONSES, RESULTS, LACK OF NEGLIGENCE, TITLE, QUIET ENJOYMENT, QUIET POSSESSION, AND NON-INFRINGEMENT OF ANY THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS WITH REGARD TO THE SDK OR DEVELOPER'S USE OF THE SDK.   AND ITS THIRD-PARTY SUPPLIERS, IF ANY, ARE NOT RESPONSIBLE FOR OBSOLESCENCE OF THE SDK THAT MAY RESULT FROM CHANGES IN DEVELOPER'S REQUIREMENTS.   AND ITS THIRD-PARTY SUPPLIERS, IF ANY, ARE NOT RESPONSIBLE FOR MALFUNCTIONS OR NON-OPERABILITY IN THE SDK OR OTHER SOFTWARE PROGRAMS, HARDWARE, OR DEVICES OPERATING THEREWITH.   AND ITS THIRD-PARTY SUPPLIERS, IF ANY, ASSUME NO RESPONSIBILITY FOR THE USE OF SUPERSEDED, OUTDATED OR UNCORRECTED VERSIONS OF THE SDK.  DEVELOPER ACKNOWLEDGES AND AGREES THAT THE SDK HAS NOT BEEN TESTED OR CERTIFIED BY ANY GOVERNMENT OR INDUSTRY REGULATION ORGANIZATION OR ANY OTHER THIRD-PARTY ORGANIZATION.  DEVELOPER FURTHER UNDERSTANDS AND AGREES THAT  IS PROVIDING THE SDK AS AN EXAMPLE ONLY, AND  DOES NOT EXPECT THAT LICENSEE WILL INCORPORATE THE REFERENCE DESIGN INTO INTENDED PRODUCTS WITHOUT MODIFICATION. DEVELOPER AGREES TO USE ITS INDEPENDENT ANALYSIS, EVALUATION AND JUDGMENT IN DESIGNING ITS INTENDED PRODUCTS.
+
+5.	INDEMNITY.
+
+Developer, at its sole expense, shall indemnify, defend and hold harmless  from and against any and all claims, causes and suits brought by any person or party arising in any way connected with Developer's Application Programs, the use of or inability to use the Application Programs, or any warranty, guarantee or representation made by Developer, including its agents, representatives, and distributors to any person or persons, including Developer's end-users.
+
+Developer, at its own expense, shall defend, indemnify and hold harmless  against all claims, losses, damages, liabilities, costs and expenses, including reasonable attorneys' fees, which  may incur resulting from any claim that any Developer's Application Programs, Developer's trademarks or service content or other omissions or misrepresentations infringe any copyrights, patents or trademarks.  shall: (i) provide Developer prompt written notice of any such claim, (ii) tender the defense of any such claim to Developer; (iii) tender the settlement of any monetary settlement to Developer (developer must obtain 's prior written consent if any payment is to be made by ) ; and (iv) provide Developer with reasonable cooperation (at Developer's expense) for the defense of the same.
+
+Developer agrees to indemnify and hold  harmless from and against all claims, losses, damages and expenses  may incur or suffer as a result of any: (i) breach of this Agreement by Developer; (ii) unauthorized use or disclosure of the Confidential Information or the SDK by Licensee or by other third parties to which Developer discloses the Confidential Information or the SDK; and (iii) material breach of a warranty or representation made by Developer to any third-party, wherein such warranty or representation relates to the Confidential Information or the SDK.
+
+6.	NO OTHER OBLIGATIONS or TECHNICAL SUPPORT
+
+This Agreement creates no obligations on the part of  other than as specifically set forth herein.
+
+ has no obligation to furnish you with technical support unless separately agreed in writing between you and .
+
+7.	LIMITATION OF LIABILITY.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL HTC, ITS EMPLOYEES OR LICENSORS OR AFFILIATES BE LIABLE FOR ANY LOST PROFITS, REVENUE, SALES, DATA, OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, PROPERTY DAMAGE, PERSONAL INJURY, INTERRUPTION OF BUSINESS, LOSS OF BUSINESS INFORMATION, COST OF REMOVAL OR REINSTALLATION, OUTSIDE COMPUTER TIME, LOSS OF LABOR TIME, LOSS OF SAVINGS, LOSS OF DATA, OR FOR ANY SPECIAL, DIRECT, INDIRECT, INCIDENTAL, EXEMPLARY, ECONOMIC, COVER, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES, IN NO EVENT SHALL  OR ANY OF ITS THIRD-PARTY SUPPLIERS BE LIABLE TO DEVELOPER FOR ANY CLAIM BY ANY THIRD-PARTY  HOWEVER CAUSED AND WHETHER ARISING UNDER CONTRACT, TORT, NEGLIGENCE, OR OTHER THEORY OF LIABILITY ARISING OUT OF THE USE OF OR INABILITY TO USE THE SDK, EVEN IF HTC OR ITS LICENSORS OR AFFILIATES ARE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  BECAUSE SOME COUNTRIES/STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF LIABILITY, BUT MAY ALLOW LIABILITY TO BE LIMITED, IN SUCH CASES, HTC, ITS EMPLOYEES OR LICENSORS OR AFFILIATES' LIABILITY SHALL BE LIMITED TO U.S. $50.  THIS LIMITATION IS INTENDED TO APPLY WITHOUT REGARD TO WHETHER OTHER PROVISIONS OF THIS AGREEMENT HAVE BEEN BREACHED OR PROVEN INEFFECTIVE.  EACH PARTY ACKNOWLEDGES AND AGREES THAT THE FOREGOING LIMITATIONS ON LIABILITY ARE ESSENTIAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN THE PARTIES AND THAT IN THE ABSENCE OF SUCH LIMITATIONS, THE MATERIAL AND ECONOMIC TERMS OF THIS AGREEMENT WOULD BE SUBSTANTIALLY DIFFERENT.
+
+8.	EXPORT RESTRICTIONS.
+
+Developer shall comply with all applicable laws and regulations in effect in the country, state or province in which it distributes the SDK and Application Programs and with the material provisions of all U.S. and other countries' laws and regulations which apply to the distribution of the SDK and Application Programs, including, but not limited to the U.S. Export Administration Regulations ("EAR") and other countries' same and/or similar export control regulations, as such laws and regulations may be amended from time-to-time.  Developer agrees that neither it nor its customers intend to or will, directly or indirectly, transport the SDK or any derivative products to any country to which such export or transmission is restricted by any applicable U.S. regulation or statute, without the prior written consent, if required, of the Bureau of Export Administration of the U.S. Department of Commerce or other government entity with jurisdiction of such transport.
+
+9.	GENERAL.
+
+9.1	Controlling Law.  This Agreement shall be interpreted, construed, governed and enforced according to the laws of the State of Texas, excluding its choice of law rules.  The parties expressly stipulate that the 1980 United Nations Convention on Contracts for the International Sale of Goods shall not apply, nor shall the Uniform Computer Information Transactions Act.  The parties waive the requirements of formal service of process and agree to be served by express courier at their principal place of business.  Developer covenants that the transaction(s) contemplated by this Agreement is commercial in nature and expressly and irrevocably waives any claim of sovereign immunity for itself and its assets in connection with any proceeding to enforce 's rights hereunder, including, without limitation, immunity from the jurisdiction of the courts of the United States, immunity from service of process, and immunity of any of their assets from pre- or post-judgment attachment or execution.  Any action to construe or enforce this Agreement shall be brought only in the courts of competent jurisdiction in Dallas County, Texas.  Developer hereby stipulates that the Judicial District Court of the State of Texas for the County of Dallas or the United States District Court for the Northern District of Texas shall have in personam jurisdiction and venue over Developer for the purpose of litigating any dispute or controversy arising out of or related to this Agreement.
+
+9.2	Notices.  Address all correspondence regarding this license agreement to:
+
+
+Unless otherwise provided, any notice to be given hereunder shall be effective upon dispatch.  Such notice shall be sent by first class mail, postage prepaid and marked for delivery by certified or registered mail, return receipt requested.
+
+9.3	No Agency.   and Developer are independent contractors.  Neither  nor Developer has any express or implied right or authority to assume or create any obligations on behalf of the other to bind the other to any contract, agreement or undertaking with any third-party.  Nothing contained herein shall be construed as creating any agency, partnership, or other form of joint enterprise between the parties.
+
+9.4	Non-Waiver.  No waiver of any of the terms and conditions of any provision of this Agreement, or the failure of  strictly to enforce any such term or condition on one or more occasions, shall constitute waiver of any prior, concurrent, or subsequent breach of the same or any other provisions hereof, and no waiver shall be effective unless made in writing and signed by an authorized representative of the waiving party.
+
+9.5	Survival.  Sections 2 ("Proprietary Rights"), 3.2 ("Taxes"), 4 ("Warranties"), 5 ("Indemnity"), 6 ("Termination"), 7 ("Limitation of Liability") and 9 ("General") of this Agreement as well as any validly granted end-user license shall survive cancellation of termination of this Agreement.
+
+9.6	Injunctive Relief.  Developer recognizes and agrees that the SDK is commercially valuable and Confidential Information of , and that the design and development of the SDK reflects the effort of skilled development experts and the investment of considerable time and money.  As such, it is understood and agreed by Developer that, notwithstanding any other provisions of this Agreement, breach of the provisions of this Agreement by Developer will cause  irreparable harm for which recovery of money damages would be inadequate to compensate  for any resulting loss and that  may seek timely injunctive or other equitable relief to protect 's rights under this Agreement in addition to any and all remedies at law.
+
+9.7	Assignment.  Neither this Agreement nor any rights of Developer hereunder may be assigned by Developer in whole or in part without the prior written approval of , which shall not be unreasonably withheld.  For the purposes of this paragraph, a change in the persons or entities that control fifty percent (50%) or more of Developer shall be considered an assignment of Developer's rights.
+
+9.8	Attorneys' Fees.  In the event of any litigation concerning any controversy, claim or dispute between the parties hereto, arising out of or relating to this Agreement or the breach hereof, or the interpretation hereof, the prevailing party shall be entitled to recover from the losing party reasonable attorneys' fees and costs incurred therein.  The "prevailing party" means the party determined by the court to have most nearly prevailed, even if such party did not prevail in all matters, not necessarily the one in whose favor a judgment is rendered.  Further, in the event of any default by a party under this Agreement, such defaulting party shall pay all the expenses and attorneys' fees incurred by the other party in connection with such default, whether or not any litigation is commenced.
+
+9.9	Entire Agreement.  THIS AGREEMENT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF 'S OBLIGATIONS AND RESPONSIBILITIES TO DEVELOPER AND, WITH THE EXCEPTION OF ANY NON-DISCLOSURE AGREEMENT(S) SIGNED BY AND BETWEEN THE PARTIES OR THEIR RESPECTIVE AFFILIATES OR SUBSIDIARIES, SUPERSEDES ANY OTHER PROPOSAL, REPRESENTATION OR OTHER COMMUNICATION BY OR ON BEHALF OF  RELATING TO THE SUBJECT MATTER HEREOF.  This Agreement may only be changed by mutual agreement of the authorized representatives of the parties in writing.
+
+9.10	Severability.  If any provisions of this Agreement shall be held by a court of competent jurisdiction to be illegal, invalid, or unenforceable, the remaining provisions shall remain in full force and effect.
+
+9.11	Section Headings.  The section and subsection headings used herein are for reference only, and shall not enter into the interpretation hereof.
+
+9.12	Force Majeure.  Neither party shall be liable by reason of any failure or delay in the performance of its obligations due to strikes, riots, fires, explosions, acts of God, war, governmental action or any other cause that is beyond the reasonable control of such party.  The performance of such party shall be excused for such reasonable time as may be required to resume performance following cessation of such cause.
+
+9.13	Binding Effect.  Except as otherwise specifically provided herein, this Agreement shall be binding upon and inure to the benefit of the parties and their legal representatives, heirs, administrators, executors, successors and assigns.
+
+9.14	Amendments.  No modification of this Agreement shall be binding unless it is in writing and is signed by an authorized representative of the party against whom enforcement of the modification is sought.
+
+10.	EXECUTION OF THIS AGREEMENT.
+
+Your use, downloading or 'clicking' of the "I Accept" button is a symbol of your signature that you specifically and actually accept, acknowledge and agree to be bound by the terms and conditions of this Agreement.  Do not proceed if you are not authorized to bind the Developer and/or you do not agree to the terms and conditions of this Agreement.
+</sdk:license>
+
+</sdk:sdk-addon>
+

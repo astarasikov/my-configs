@@ -114,8 +114,12 @@ alias ida="wine /home/alexander/.wine/drive_c/Program\ Files/IDA/idag"
 alias alsaeq="alsamixer -D equal"
 alias adb="/home/alexander/handhelds/android-sdk-linux_x86/platform-tools/adb"
 alias rename_mp3="lltag --mp3v2 --rename \"%a - %t\" *mp3"
+alias riptube=" youtube-dl -f 34 --extract-audio --audio-format vorbis -o '%(stitle)s.flv'"
+alias fsi="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsi.exe"
+alias fsc="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsc.exe"
+alias minicom="minicom -c on"
 
-export PATH=~/handhelds/android-sdk-linux_x86/tools:/home/alexander/bin:/sbin:/home/alexander/handhelds/armv6/codesourcery/bin:$PATH
+export PATH=~/handhelds/android-sdk-linux_x86/platform-tools:/home/alexander/bin:/sbin:/home/alexander/handhelds/armv6/codesourcery/bin:~/handhelds/android-sdk-linux_x86/tools/:$PATH
 
 export MAIL=/var/mail/alexander
 
@@ -125,3 +129,5 @@ export GDK_USE_XFT=1
 export QT_XFT=true
 export PYTHONSTARTUP=/home/alexander/.pystartup
 export TERM=xterm
+export MINICOM="-c on"
+

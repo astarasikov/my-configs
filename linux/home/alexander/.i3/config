@@ -58,8 +58,8 @@ workspace_layout stacking
 bindsym $mod+i exec "xcalib -i -a"
 bindsym XF86Launch1 exec i3-sensible-terminal
 bindsym Help exec i3-sensible-terminal
-bindsym XF86AudioLowerVolume exec "amixer -q set Master 1- unmute"
-bindsym XF86AudioRaiseVolume exec "amixer -q set Master 1+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer -c 0 -q set Master 1- unmute"
+bindsym XF86AudioRaiseVolume exec "amixer -c 0 -q set Master 1+ unmute"
 bindsym XF86AudioStop exec $mpdstop
 bindsym XF86AudioPlay exec $mpdplay
 bindsym XF86AudioNext exec $mpdnext

@@ -1,0 +1,14 @@
+[user]
+	name = Alexander Tarasikov
+	email = alexander.tarasikov@gmail.com
+[color]
+	ui = auto
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 465
+	smtpencryption = ssl
+	smtpuser = alexander.tarasikov@gmail.com
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+	tool = prompt

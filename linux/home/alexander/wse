@@ -1,0 +1,56 @@
+#!/bin/sh
+#midnight
+#wlan="00:23:5a:97:62:66"
+#ip="127.1.1.9"
+
+#wlan="00:21:63:47:d8:56"
+#ip="10.10.11.71"
+
+#wlan="00:e0:91:36:ea:1e"
+#ip="192.168.1.17"
+
+#macs=(
+#	(vaio1 78:dd:08:e4:a4:76 10.10.10.139)
+#	(asus1 00:25:d3:07:1c:06 10.10.11.77)
+#	(hse-5ab415fefd2 00:26:18:d9:49:1e 10.10.10.249)
+#	(midnight1 00:1b:b1:a2:97:9e 10.10.10.17)
+#	(lamersha-pc 00:21:5d:9a:d4:3c 10.10.11.167)
+#	(oksana c4:46:19:1b:ca:8f 10.10.10.75)
+#	(moto 00:1c:26:66:8c:9d 10.10.11.104)
+#)
+
+mac="00:1b:b1:a2:97:9e"
+ip="10.10.10.17"
+
+#ip="10.10.11.213"
+#mac="00:21:63:02:84:b0"
+
+#ip="10.10.10.11"
+#mac="00:13:77:4b:4a:d2"
+
+#ip="10.10.10.249"
+#mac="c4:46:19:8a:6f"
+
+#ip="10.10.11.42"
+#mac="90:a4:de:73:a5:12"
+
+ap="ap257"
+
+if [ ! -z "$1" ]
+then
+	mac=$1
+fi
+
+if [ ! -z "$2" ]
+then
+	ip=$2
+fi
+
+sudo /sbin/ifconfig wlan0 down
+sudo /sbin/ifconfig wlan0 hw ether $mac netmask 255.255.0.0
+sudo /sbin/ifconfig wlan0 $ip up
+#echo "nameserver 192.168.0.1">/etc/resolv.conf
+route del default
+route add default gw 10.10.10.10
+echo "nameserver 8.8.8.8">/etc/resolv.conf
+

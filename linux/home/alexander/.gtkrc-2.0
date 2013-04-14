@@ -6,10 +6,9 @@ gtk-menu-bar-popup-delay=0
 gtk-menu-popdown-delay=0
 gtk-menu-popup-delay=0
 
-gtk-recent-files-max-age=0
-
 style "default-font" {
 	fontset = "Verdana 9"
 }
 
 class "*" style "default-font"
+#include ".gtkrc-2.0-gnome-color-chooser"

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdk:sdk-addon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdk="http://schemas.android.com/sdk/android/addon/1">
+
+						<sdk:add-on>
+					<sdk:name>ATRIX2</sdk:name>
+					<sdk:api-level>10</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>2</sdk:revision>
+					<sdk:description>ATRIX2 SDK add-on</sdk:description>
+					<sdk:desc-url>http://developer.motorola.com/products/atrix-2-mb865/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>73777114</sdk:size>
+							<sdk:checksum type="sha1">227e551160c5fef2e51f1cf514fcf13ab7c4a747</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_ATRIX2</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>Droid4</sdk:name>
+					<sdk:api-level>10</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>2</sdk:revision>
+					<sdk:description>Droid4 SDK add-on</sdk:description>
+					<sdk:desc-url>https://developer.motorola.com/products/drod-4-xt894/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>81222260</sdk:size>
+							<sdk:checksum type="sha1">a8adc97281b8c1a8338dd782a485d9a651f4da72</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_Droid4</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>DroidRAZR</sdk:name>
+					<sdk:api-level>10</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>5</sdk:revision>
+					<sdk:description>DroidRAZR SDK add-on</sdk:description>
+					<sdk:desc-url>https://developer.motorola.com/products/droid-razr-xt912/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>80043807</sdk:size>
+							<sdk:checksum type="sha1">68d8951d8c31399326f8981c40bb538c0334810c</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_DroidRAZR</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>ICS_R1</sdk:name>
+					<sdk:api-level>15</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>1</sdk:revision>
+					<sdk:description>ICS R1 SDK add-on</sdk:description>
+					<sdk:desc-url>https://developer.motorola.com/products/razr_v_mt887/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>115777448</sdk:size>
+							<sdk:checksum type="sha1">fa705782741ee761f1298cd947ef19f6091e1b63</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_ICS_R1_Products</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>XOOM2</sdk:name>
+					<sdk:api-level>13</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>2</sdk:revision>
+					<sdk:description>XOOM2 SDK add-on</sdk:description>
+					<sdk:desc-url>http://developer.motorola.com/products/xoom-2-mz615/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>123990783</sdk:size>
+							<sdk:checksum type="sha1">532a2a2093594d6b010eb188aa684da91baaff1d</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_XOOM2</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>XOOM2ME</sdk:name>
+					<sdk:api-level>13</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>2</sdk:revision>
+					<sdk:description>XOOM2ME SDK add-on</sdk:description>
+					<sdk:desc-url>http://developer.motorola.com/products/xoom-2-me-mz607/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>122780710</sdk:size>
+							<sdk:checksum type="sha1">f643cb0154f856950d016b54b4b3bfad264b9d6c</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_XOOM2ME</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+						<sdk:add-on>
+					<sdk:name>XT928</sdk:name>
+					<sdk:api-level>10</sdk:api-level>
+					<sdk:vendor>Motorola Mobility, Inc.</sdk:vendor>
+					<sdk:revision>3</sdk:revision>
+					<sdk:description>XT928 SDK add-on</sdk:description>
+					<sdk:desc-url>https://developer.motorola.com/products/xt928/</sdk:desc-url>
+					<sdk:uses-license ref="motorola-addon-license"/>
+					<sdk:archives>
+						<sdk:archive os="any">
+							<sdk:size>86664035</sdk:size>
+							<sdk:checksum type="sha1">00d265f16f8318f0391af66756c2b0ae39e4192a</sdk:checksum>
+							<sdk:url>/addons/Motorola_SDK_Add-on_for_XT928</sdk:url>
+						</sdk:archive>
+					</sdk:archives>
+					<sdk:libs>
+					</sdk:libs>
+				</sdk:add-on>
+					
+			
+	
+        <sdk:license type="text" id="motorola-addon-license">
+ATTENTION:  READ CAREFULLY BEFORE YOU INSTALL THE SOFTWARE
+
+END-USER SOFTWARE LICENSE AGREEMENT (“AGREEMENT”)
+
+TERMS AND CONDITIONS
+
+LEGAL NOTICES:BY CLICKING ON THE "ACCEPT" BUTTON AT THE BOTTOM OF THIS WINDOW, YOU INDICATE THAT YOU HAVE READ AND AGREED TO ALL THE TERMS OF THIS AGREEMENT AND THAT YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. MOTOROLA IS WILLING TO LICENSE THE SOFTWARE TO YOU ONLY UPON THE CONDITION THAT YOU AGREE TO ALL THE TERMS CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "DECLINE" BUTTON AND DO NOT INSTALL THE SOFTWARE.
+
+THE FOLLOWING AGREEMENT IS A LEGAL AGREEMENT BETWEEN YOU, (THE END-USER, EITHER AN INDIVIDUAL OR ENTITY), AND MOTOROLA, INC. (FOR ITSELF AND ITS LICENSORS).
+
+THIS SOFTWARE IS LICENSED BY MOTOROLA TO YOU, FOR USE ONLY UNDER THE TERMS SET FORTH HEREIN.
+
+BINARY-EXECUTABLE GRANT OF LICENSE: Motorola grants you a limited, non-exclusive, revocable license to use the executable-code version of Motorola SDK Add-on software and any associated media, printed materials, and “online” or electronic documentation contained in this Motorola promotion (“Software”) for your personal use solely for the purpose of developing software applications for use with Motorola products. All rights not expressly granted to you are reserved by Motorola.
+
+SAMPLE SOURCE CODE GRANT OF LICENSE: The Software may contain certain sample source code in the form of example applications and code fragments (both in the source code files and documentation provided hereunder). Motorola grants you a limited personal, non-exclusive, and revocable license to: (i) use the sample source code internally to develop, test, evaluate and demonstrate software applications for use solely with or on Motorola wireless handset products, and (ii) incorporate the sample source code into the applications and distribute the applications in binary form only, provided that you include any copyright notice that appears in the sample source code. No license is granted to you such source code (human-readable code) of the Software, except as expressly set forth in this paragraph.
+
+COPYRIGHT: Except as otherwise explicitly indicated in this Agreement, the Software is owned by Motorola or its third-party licensors and is protected by United States copyright laws and international treaty provisions. You acknowledge that no title to any intellectual property in the Software is transferred to you.
+
+OPEN SOURCE AND OTHER SOFTWARE: All or a portion(s) of the Software provided hereunder may be identified as being licensed under a particular other license, e.g., GPL, LGPL, Apache, etc., (“Other License”). To the extent that the terms of this Agreement conflict with the terms of such Other License, then the terms of such Other License shall control. For clarity, in the event that all or any portion of the Software provided hereunder does not reference, or otherwise indicate, such Other License, this Agreement shall control.
+
+LIMITATIONS: Except as otherwise explicitly permitted in this Agreement, you may not: a.) modify the Software or create derivative works of the Software; b.) decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code of the Software; c.) re-distribute, encumber, sell, rent, lease, sub-license, assign or otherwise transfer your rights to the Software; or d.) remove or alter any trademark, logo, copyright, or other proprietary notices in the Software. You may make only as many copies of the Software as are reasonably necessary to test the Software, provided that you accurately and completely reproduce and include on all such copies any and all copyright, proprietary, and other notices and legends that appear on the Software as provided by Motorola. For clarity, each and all copies of the Software are subject to the terms of this Agreement.
+
+HIGH RISK ACTIVITIES: The Software is not fault-tolerant and is not designed, manufactured or intended for use in hazardous environments requiring fail-safe performance, such as in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, implantable human medical devices, external human life-support machines, explosives control devices, submarines, weapons systems, or in controlling the operation of moving motor vehicles, in which the failure of the Software could lead directly to death, personal injury, or severe physical or environmental damage ("High Risk Activities"). You agree not to use the Software in High Risk Activities.
+
+U. S. GOVERNMENT RESTRICTED RIGHTS: The U. S. Government acknowledges Motorola's representation that the Software and its documentation were developed at private expense and no part of them is in the public domain and that the Software is Restricted Computer Software as that term is defined in Clause 52.227-19(FAR) and is Commercial Computer Software as that term is defined in Subpart 227.471 DFARS).
+
+RESTRICTED RIGHTS LEGEND: Where applicable, use, duplication or disclosure by the U. S. Government is subject to restrictions as set forth in subparagraph (c) (1) (ii) of the Rights of Technical Data and Computer Software clause at DFARS 252.227-7013. Contractor/manufacturer is Motorola Inc., 1303 E. Algonquin Rd., Schaumburg, IL 60196.
+
+EXPORT LAW ASSURANCES: You agree to comply fully with the export regulations of the United States of America. You agree that you will not export the Software without an export license issued by the U. S. Department of Commerce. You agree to comply with all regulatory sanctions or restrictions involving a party or an entity identified as Denied Parties or Specially Designated Nationals by the U.S. Department of Commerce and/or the U.S. Department of Treasury.
+
+DISCLAIMER OF WARRANTIES: Motorola does not warrant that the Software will meet your requirements, that operation of the Software will be uninterrupted or error free, or that all Software errors will be corrected. The entire risk as to the quality and performance of the Software is with you.
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY MOTOROLA, ITS EMPLOYEES, DISTRIBUTORS, DEALERS OR AGENTS SHALL INCREASE THE SCOPE OF OR CREATE ANY NEW WARRANTIES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. IN THAT EVENT, ANY IMPLIED WARRANTIES ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE OF DELIVERY OF THE SOFTWARE. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHER RIGHTS, WHICH VARY FROM STATE TO STATE.
+
+LIMITATION OF LIABILITY: REGARDLESS OF WHETHER ANY REMEDY SET FORTH IN THE WARRANTY FAILS OF ITS ESSENTIAL PURPOSE, IN NO EVENT WILL MOTOROLA BE LIABLE TO YOU OR ANY THIRD PARTIES FOR ANY DIRECT DAMAGES OR ANY SPECIAL, CONSEQUENTIAL, INDIRECT OR SIMILAR DAMAGES, INCLUDING LOST PROFITS OR LOST DATA ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE OR ANY DATA SUPPLIED THEREWITH EVEN IF MOTOROLA OR ANYONE ELSE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY OTHER PARTY. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION FOR INDIRECT DAMAGES MAY NOT APPLY TO YOU. IN NO CASE SHALL THE LIABILITY OF MOTOROLA EXCEED THE PRICE PAID FOR THE SOFTWARE.
+
+PROHIBITION ON CLAIMS AGAINST OPERATING SYSTEM PROVIDER: YOU AGREE THAT THE ABOVE LIMITATION OF LIABILITY EXTENDS TO MICROSOFT AND APPLE WITH RESPECT TO THE SOFTWARE. YOU FURTHER AGREE THAT YOU SHALL NOT INITIATE ANY ACTION AGAINST MICROSOFT OR APPLE RELATED TO THE SOFTWARE.
+
+TERM: This Agreement is effective until terminated. This Agreement will terminate, and the license granted to you by this Agreement will be revoked, immediately, without any notice from Motorola, if you fail to comply with any provision of this Agreement. Motorola may also terminate the license grants herein at any time. Upon termination of this Agreement or the license granted to you through this Agreement, you must destroy the Software.
+
+GOVERNING LAW: The validity, performance and construction of this Agreement shall be governed by the laws of the State of Illinois.
+
+ENTIRE AGREEMENT: This Agreement constitutes the entire agreement between you and Motorola with respect to the Software licensed hereunder, and supersedes all previous communications, representations, understandings and agreements, either oral or written, between you and Motorola regarding this Software. This Agreement may not be modified or waived except in writing and signed by an officer or other authorized representative of each party. If any provision is held invalid, all other provisions shall remain valid, unless such invalidity would frustrate the purpose of our Agreement. The failure of either party to enforce any rights granted hereunder or to take action against the other party in the event of any breach hereunder shall not be deemed a waiver by that party as to subsequent enforcement of rights or subsequent action in the event of future breaches.
+	</sdk:license>
+	
+	<sdk:license type="text" id="motorola-addon-prerelease-license">
+ATTENTION:  READ CAREFULLY BEFORE YOU INSTALL THE SOFTWARE
+
+END-USER SOFTWARE LICENSE AGREEMENT (“AGREEMENT”)
+
+TERMS AND CONDITIONS
+
+LEGAL NOTICES: BY CLICKING ON THE "AGREE" BUTTON AT THE BOTTOM OF THIS WINDOW, YOU INDICATE THAT YOU HAVE READ AND AGREED TO ALL THE TERMS OF THIS AGREEMENT AND THAT YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. MOTOROLA MOBILITY, INC. IS WILLING TO LICENSE THE SOFTWARE TO YOU ONLY UPON THE CONDITION THAT YOU AGREE TO ALL THE TERMS CONTAINED IN THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "DECLINE" BUTTON AND DO NOT INSTALL THE SOFTWARE.
+
+THE FOLLOWING AGREEMENT IS A LEGAL AGREEMENT BETWEEN YOU, (THE END-USER, EITHER AN INDIVIDUAL OR ENTITY), AND MOTOROLA MOBILITY, INC. (FOR ITSELF AND ITS LICENSORS).
+
+THIS SOFTWARE IS LICENSED BY MOBILITY TO YOU, FOR USE ONLY UNDER THE TERMS SET FORTH HEREIN.
+
+EVALUATION PERIOD: The evaluation period for this Agreement shall be from the date of acceptance of this agreement to the date on which the Software covered by this agreement is released to the general public (“Evaluation Period”).
+
+BINARY-EXECUTABLE GRANT OF LICENSE: Mobility grants you a limited, non-exclusive, revocable license to use the executable-code version of Motorola SDK Add-on software and any associated media, printed materials, and “online” or electronic documentation (“Software”) for your testing and evaluation purposes only (“Test”), and solely during the Evaluation Period. YOU MAY NOT REDISTRIBUTE THIS SOFTWARE. All rights not expressly granted to you are reserved by Mobility.
+
+SAMPLE SOURCE CODE GRANT OF LICENSE: The Software may contain certain sample source code in the form of example applications and code fragments (both in the source code files and documentation provided hereunder). Motorola Mobility grants you a limited personal, non-exclusive, and revocable license to: (i) use the sample source code internally to develop, test, evaluate and demonstrate software applications for use solely with or on Motorola Mobility wireless handset products, and (ii) incorporate the sample source code into the applications and distribute the applications in binary form only, provided that you include any copyright notice that appears in the sample source code. No license is granted to you in such source code (human-readable code) of the Software, except as expressly set forth in this paragraph.
+
+FEEDBACK: Subject to the license granted to You pursuant to this Agreement, Motorola Mobility shall retain all right, title and interest in and to the Software, including all intellectual property rights therein. You agree that all inventions, product improvements, and modifications to the Software conceived of or made by Motorola Mobility or its contractors that are based, either in whole or in part, on Your ideas, feedback, suggestions, or recommended improvements (“Feedback”) are the exclusive property of Motorola Mobility, and all right, title and interest in and to any such inventions, product improvements, and modifications will vest solely in Motorola Mobility. Such Feedback may be used by Motorola Mobility in its design, specification and development of any Mobility products which Mobility may generally make available to others. This Section shall survive the termination or expiration of this Agreement.
+
+COPYRIGHT: Except as otherwise explicitly indicated in this Agreement, the Software is owned by Mobility or its third-party licensors and is protected by United States copyright laws and international treaty provisions. You acknowledge that no title to any intellectual property in the Software is transferred to you.
+
+OPEN SOURCE AND OTHER SOFTWARE: All or a portion(s) of the Software provided hereunder may be identified as being licensed under a particular other license, e.g., GPL, LGPL, Apache, etc., (“Other License”). To the extent that the terms of this Agreement conflict with the terms of such Other License, then the terms of such Other License shall control. For clarity, in the event that all or any portion of the Software provided hereunder does not reference, or otherwise indicate, such Other License, this Agreement shall control.
+
+CONFIDENTIALITY: Unless otherwise expressly authorized by Mobility in writing, You agree to retain the (i) Software, (ii) existence and contents of this Agreement, (iii) information related to the Motorola Mobility devices in this Test, and (iv) any Test results related to any of the above, including but not limited to Software or product defects, (all of the above referred to herein as “Confidential Information”) in confidence during the Evaluation Period and for a period of ten (10) years from the expiration or termination of this Agreement (“Post Agreement Period”). During the Evaluation Period and Post Agreement Period You agree that you shall not disclose the Confidential Information to any third party. This Section shall survive the termination or expiration of this Agreement.
+
+LIMITATIONS: Except as otherwise explicitly permitted in this Agreement, you may not: a.) modify the Software or create derivative works of the Software; b.) decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code of the Software; c.) re-distribute, encumber, sell, rent, lease, sub-license, assign or otherwise transfer your rights to the Software; or d.) remove or alter any trademark, logo, copyright, or other proprietary notices in the Software. You may make only as many copies of the Software as are reasonably necessary to test the Software, provided that you accurately and completely reproduce and include on all such copies any and all copyright, proprietary, and other notices and legends that appear on the Software as provided by Mobility. For clarity, each and all copies of the Software are subject to the terms of this Agreement.
+
+HIGH RISK ACTIVITIES: The Software is not fault-tolerant and is not designed, manufactured or intended for use in hazardous environments requiring fail-safe performance, such as in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, implantable human medical devices, external human life-support machines, explosives control devices, submarines, weapons systems, or in controlling the operation of moving motor vehicles, in which the failure of the Software could lead directly to death, personal injury, or severe physical or environmental damage ("High Risk Activities"). You agree not to use the Software in High Risk Activities.
+
+U. S. GOVERNMENT RESTRICTED RIGHTS: The U. S. Government acknowledges Mobility's representation that the Software and its documentation were developed at private expense and no part of them is in the public domain and that the Software is Restricted Computer Software as that term is defined in Clause 52.227-19(FAR) and is Commercial Computer Software as that term is defined in Subpart 227.471 DFARS).
+
+RESTRICTED RIGHTS LEGEND: Where applicable, use, duplication or disclosure by the U. S. Government is subject to restrictions as set forth in subparagraph (c) (1) (ii) of the Rights of Technical Data and Computer Software clause at DFARS 252.227-7013. Contractor/manufacturer is Motorola Mobility, Inc., 1303 E. Algonquin Rd., Schaumburg, IL 60196.
+
+EXPORT LAW ASSURANCES: You agree to comply fully with the export regulations of the United States of America. You agree that you will not export the Software without an export license issued by the U. S. Department of Commerce. You agree to comply with all regulatory sanctions or restrictions involving a party or an entity identified as Denied Parties or Specially Designated Nationals by the U.S. Department of Commerce and/or the U.S. Department of Treasury.
+
+DISCLAIMER OF WARRANTIES: Mobility does not warrant that the Software will meet your requirements, that operation of the Software will be uninterrupted or error free, or that all Software errors will be corrected. The entire risk as to the quality and performance of the Software is with you.
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY MOBILITY, ITS EMPLOYEES, DISTRIBUTORS, DEALERS OR AGENTS SHALL INCREASE THE SCOPE OF THE ABOVE WARRANTIES OR CREATE ANY NEW WARRANTIES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. IN THAT EVENT, ANY IMPLIED WARRANTIES ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE OF DELIVERY OF THE SOFTWARE. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHER RIGHTS, WHICH VARY FROM STATE TO STATE.
+
+LIMITATION OF LIABILITY: REGARDLESS OF WHETHER ANY REMEDY SET FORTH IN THE WARRANTY FAILS OF ITS ESSENTIAL PURPOSE, IN NO EVENT WILL MOBILITY BE LIABLE TO YOU OR ANY THIRD PARTIES FOR ANY DIRECT DAMAGES OR ANY SPECIAL, CONSEQUENTIAL, INDIRECT OR SIMILAR DAMAGES, INCLUDING LOST PROFITS OR LOST DATA ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE OR ANY DATA SUPPLIED THEREWITH EVEN IF MOBILITY OR ANYONE ELSE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY OTHER PARTY. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION FOR INDIRECT DAMAGES MAY NOT APPLY TO YOU. IN NO CASE SHALL THE LIABILITY OF MOBILITY EXCEED THE PRICE PAID FOR THE SOFTWARE.
+
+PROHIBITION ON CLAIMS AGAINST OPERATING SYSTEM PROVIDER: YOU AGREE THAT THE ABOVE LIMITATION OF LIABILITY EXTENDS TO MICROSOFT AND APPLE WITH RESPECT TO THE SOFTWARE. YOU FURTHER AGREE THAT YOU SHALL NOT INITIATE ANY ACTION AGAINST MICROSOFT OR APPLE RELATED TO THE SOFTWARE.
+
+TERM: This Agreement expires at the end of the Evaluation Period unless terminated earlier. This Agreement can be terminated in writing by Motorola Mobility, at any time, without prior notice. Notwithstanding the above, this Agreement will terminate, and the license granted to you by this Agreement will be revoked, immediately, without any notice from Mobility, if you fail to comply with any provision of this Agreement. Upon termination, you must destroy the Software.
+
+GOVERNING LAW: The validity, performance and construction of this Agreement shall be governed by the laws of the State of Illinois.
+
+ENTIRE AGREEMENT: This Agreement constitutes the entire agreement between you and Mobility with respect to the Software licensed hereunder, and supersedes all previous communications, representations, understandings and agreements, either oral or written, between you and Mobility regarding this Software. This Agreement may not be modified or waived except in writing and signed by an officer or other authorized representative of each party. If any provision is held invalid, all other provisions shall remain valid, unless such invalidity would frustrate the purpose of our Agreement. The failure of either party to enforce any rights granted hereunder or to take action against the other party in the event of any breach hereunder shall not be deemed a waiver by that party as to subsequent enforcement of rights or subsequent action in the event of future breaches.
+	</sdk:license>
+
+</sdk:sdk-addon>
+

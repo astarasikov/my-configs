@@ -1,0 +1,80 @@
+set from = "alexander.tarasikov@gmail.com"
+set realname = "Alexander Tarasikov"
+
+set imap_user="alexander.tarasikov@gmail.com"
+set smtp_url="smtp://alexander.tarasikov@smtp.gmail.com:587/"
+set smtp_pass=""
+set imap_pass=""
+
+set folder="imaps://imap.gmail.com:993"
+set spoolfile="+INBOX"
+set postponed="+[Gmail]/Drafts"
+set trash="imaps://imap.gmail.com/[Gmail]/Trash"
+set message_cachedir=~/.mail/cache/bodies
+set header_cache=~/.mail/cache/headers
+mailboxes =inbox
+mailboxes =sent
+set mbox =+inbox
+set mbox_type="Maildir"
+set record=+sent
+
+set move = no
+set sort = 'last-date-received'
+set sort_aux = 'threads'
+set delete = yes
+set edit_headers
+set include
+set use_from = yes
+set mail_check = 5
+set pager_index_lines = 6
+set record=+outbox
+set reply_to
+set reverse_name
+set nosave_empty
+set tilde
+set editor=vim
+set visual=vim
+set abort_nosubject=yes
+set status_on_top
+set markers
+
+color attachment blue default
+color header green default "^message-id:"
+color header green default "^x-mailer:"
+color header green default "^user-agent:"
+color header brightblue default "^date"
+color header yellow default "^from"
+color header yellow default "^subject"
+color header brightblue default "^to"
+color header brightblue default "^cc"
+color header brightblue default "^reply-to"
+color index yellow default ~F
+color index red default ~D
+color index yellow default ~T
+color index brightblue default ~N
+color indicator brightwhite blue
+color markers red default
+color quoted magenta default
+color signature brightblue default
+color status brightyellow black
+color tilde green default
+color tree green default
+
+set pgp_decode_command="gpg %?p?--passphrase-fd 0? --no-verbose --batch --output - %f"
+set pgp_verify_command="gpg --no-verbose --batch --output - --verify %s %f"
+set pgp_decrypt_command="gpg --passphrase-fd 0 --no-verbose --batch --output - %f"
+set pgp_sign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --detach-sign --textmode %?a?-u %a? %f"
+set pgp_clearsign_command="gpg --no-verbose --batch --output - --passphrase-fd 0 --armor --textmode --clearsign %?a?-u %a? %f"
+set pgp_encrypt_only_command="pgpewrap gpg --batch --quiet --no-verbose --output - --encrypt --textmode --armor --always-trust --encrypt-to 0xC7F1F407 -- -r %r -- %f"
+set pgp_encrypt_sign_command="pgpewrap gpg --passphrase-fd 0 --batch --quiet --no-verbose --textmode --output - --encrypt --sign %?a?-u %a? --armor --always-trust --encrypt-to 0xC7F1F407 -- -r %r -- %f"
+set pgp_import_command="gpg --no-verbose --import -v %f"
+set pgp_export_command="gpg --no-verbose --export --armor %r"
+set pgp_verify_key_command="gpg --no-verbose --batch --fingerprint --check-sigs %r"
+set pgp_list_pubring_command="gpg --no-verbose --batch --with-colons --list-keys %r" 
+set pgp_list_secring_command="gpg --no-verbose --batch --with-colons --list-secret-keys %r" 
+set pgp_autosign=yes
+set pgp_sign_as=0xC7F1F407
+set pgp_replyencrypt=yes
+set pgp_timeout=1800
+set pgp_good_sign="^gpg: Good signature from"
+alias q q

@@ -1,0 +1,6 @@
+import readline
+import rlcompleter
+
+readline.parse_and_bind("Ctrl-X: complete")
+
+del readline, rlcompleter

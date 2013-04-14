@@ -1,0 +1,34 @@
+DEFAULT=/var/mail/alexander
+MAILDIR=$HOME/.mail
+LOGFILE=$HOME/.mail/procmail_log
+#LOGABSTRACT=no
+#VERBOSE=off
+FORMAIL=`which formail`
+NL=""
+
+:0 Whc: .msgid.lock
+| $FORMAIL -D 16384 .msgid.cache
+
+:0 a
+$MAILDIR/duplicates
+
+:0
+* ^From:.*(oleg@kaa.org.ua)
+$MAILDIR/friends
+
+:0
+* ^Subject:.*(credit|cash|money|debt|sex|sale|loan)
+$MAILDIR/spam
+
+:0
+* ^List-Id:.*gentoo-users
+gentoo-users
+
+:0
+* ^To:.alexander.tarasikov@gmail.com
+gmail
+
+:0
+* .*
+default
+
