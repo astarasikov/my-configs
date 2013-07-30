@@ -13,33 +13,32 @@ exec /home/alexander/.config/my_xrc.sh
 
 set $mod Mod4
 
-#either i was mad today or whatever but my head exploded when i tried
-#to pass parameters to a command stored in a i3 variable
+# either i was mad today or whatever but my head exploded when i tried
+# to pass parameters to a command stored in a i3 variable
 set $mpdnext "mpc -h mpdpass@localhost -p 6601 next"
 set $mpdprev "mpc -h mpdpass@localhost -p 6601 prev"
 set $mpdplay "mpc -h mpdpass@localhost -p 6601 toggle"
 set $mpdstop "mpc -h mpdpass@localhost -p 6601 stop"
 
 # font for window titles. ISO 10646 = Unicode
-# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font -*-terminus-bold-*-*-*-14-*-*-*-*-*-iso10646-*
+font pango:Terminus Bold 10
 
-#set colors
+# set colors
 client.focused #00ff00 #009000 #ffffff
 client.focused_inactive #00ff00 #000000 #ffffff
 client.unfocused #808080 #000000 #ffffff
 client.urgent #000000 #dd5555 #ffffff
 
-#workspaces names
-workspace 1 "general"
-workspace 2 "irc"
+# workspaces names
+workspace 1 ":general"
+workspace 2 ":irc"
 workspace 3 ":ebook"
 workspace 4 ":music"
 workspace 5 ":java"
 workspace 6 ":vbox"
 workspace 7 output HDMI2
 
-#for_window [class="XTerm"] floating enable 
+# for_window [class="XTerm"] floating enable 
 assign [class="[Ff]irefox"] 7
 assign [class="[Cc]hromium"] 7
 assign [class="[Pp]si"] 1
@@ -51,10 +50,10 @@ assign [class="Ardour"] 4
 assign [class="Audacity"] 4
 assign [class="[Vv]irtual[Bb][Oo][Xx]"] 6
 
-#default workspace layout
+# default workspace layout
 workspace_layout stacking
 
-#keybindings
+# keybindings
 bindsym $mod+i exec "xcalib -i -a"
 bindsym XF86Launch1 exec i3-sensible-terminal
 bindsym Help exec i3-sensible-terminal
@@ -71,6 +70,7 @@ bindsym $mod+Down exec $mpdplay
 bindsym $mod+Up exec $mpdstop
 bindsym $mod+Right exec $mpdnext
 bindsym $mod+F2 exec "xscreensaver-command -lock"
+bindsym $mod+F8 exec "/home/alexander/.config/bt_toggle.sh"
 bindsym $mod+F12 exec "scrot -q 100 ~/screenshot-%F-%H%M%S.png"
 bindsym $mod+F11 exec "scrot -q 80 ~/screenshot-%F-%H%M%S.jpg"
 
@@ -107,10 +107,10 @@ bindsym $mod+v split v
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
 
-# change container layout (stacked, tabbed, default)
+# change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout default
+bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -122,7 +122,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindcode $mod+d focus child
+# bindcode $mod+d focus child
 
 # switch to workspace
 bindsym $mod+1 workspace 1
