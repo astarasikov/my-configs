@@ -10,11 +10,11 @@ xscreensaver &
 autocutsel &
 eval `gpg-agent --daemon`
 setxkbmap -layout us,ru -option terminate:ctrl_alt_bksp,grp:led_caps,grp:caps_toggle,compose:ralt
-#trayer --edge top --expand false --height 16 --widthtype request &
 /usr/sbin/wpa_gui -t &
 /usr/lib/notify-osd/notify-osd &
 xcompmgr -C &
 blueman-applet &
+nm-applet &
 
 TSC_NR="`xinput --list | grep 'MicroTouch USB' | grep -P '(?<=id=)\w+' -o`"
 if [ ! -z $TSC_NR ]; then
