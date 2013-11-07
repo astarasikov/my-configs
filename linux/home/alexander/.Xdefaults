@@ -1,7 +1,6 @@
-#URxvt.transparent:		true
 URxvt.shading:			60
 URxvt.blurRadius:		10
-URxvt.font:			xft:Terminus,11
+URxvt.font:			xft:Terminus:pixelsize=14
 URxvt.scrollstyle:		plain
 URxvt.geometry:				100x35
 

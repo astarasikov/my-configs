@@ -112,18 +112,17 @@ alias getall="wget -nc -r -l 1 $1"
 alias hmebkp="rsync -v -a --delete /home/alexander /mnt/bkp/home"
 alias ida="wine /home/alexander/.wine/drive_c/Program\ Files/IDA/idag"
 alias alsaeq="alsamixer -D equal"
-alias adb="/home/alexander/handhelds/android-sdk-linux_x86/platform-tools/adb"
+alias adb="/home/alexander/handhelds/android-sdk-linux/platform-tools/adb"
 alias rename_mp3="lltag --mp3v2 --rename \"%a - %t\" *mp3"
 alias riptube=" youtube-dl -f 34 --extract-audio --audio-format vorbis -o '%(stitle)s.flv'"
-alias fsi="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsi.exe"
-alias fsc="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsc.exe"
+#alias fsi="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsi.exe"
+#alias fsc="mono /home/alexander/bin/dotnet/FSharp-2.0.0.0/bin/fsc.exe"
 alias minicom="minicom -c on"
-
-export PATH=~/handhelds/android-sdk-linux_x86/platform-tools:/home/alexander/bin:/sbin:/home/alexander/handhelds/armv6/codesourcery/bin:~/handhelds/android-sdk-linux_x86/tools/:$PATH
+alias chroot="/usr/sbin/chroot"
 
 export MAIL=/var/mail/alexander
 
-export JDK_HOME=/usr/lib/jvm/java-6-sun
+export JDK_HOME=/usr/lib/jvm/default-java
 export EDITOR=vim
 export GDK_USE_XFT=1
 export QT_XFT=true
@@ -131,3 +130,19 @@ export PYTHONSTARTUP=/home/alexander/.pystartup
 export TERM=xterm
 export MINICOM="-c on"
 
+#local apps
+export PATH=~/bin:$PATH
+export PATH=~/.local/bin:$PATH
+
+#Android
+export PATH=~/handhelds/android-sdk-linux/platform-tools:$PATH
+export PATH=/home/alexander/bin:/sbin:/home/alexander/handhelds/armv6/codesourcery/bin:$PATH
+export PATH=~/handhelds/armv6/arm-linux/:~/handhelds/android-sdk-linux/tools/:$PATH
+
+export PATH=/mnt/intel-part2/work/fpga/quartus/quartus/bin:$PATH
+
+#ruby gems
+export PATH=~/.gem/ruby/2.0.0/bin:$PATH
+
+## Tizen SDK configuration
+export PATH=$PATH:/home/alexander/bin/sdk/tizen-sdk/tools

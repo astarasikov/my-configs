@@ -43,7 +43,12 @@ map <F3> :bn<ENTER>
 map <F4> :bd<ENTER>
 map <F6> :vsp<ENTER>
 map <F7> :sp<ENTER>
+
 map <F9> :make run<ENTER>
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
 
 function MyCD()
 	if bufname("") !~ "(^\[A-Za-z0-9\]*://)\{1}"
@@ -72,4 +77,14 @@ augroup fs
 au!
 au! BufRead *.fs set filetype=ocaml
 au! BufRead *.fs set expandtab
+augroup END
+
+augroup xdc
+au!
+au! BufRead *.xdc set filetype=javascript
+augroup END
+
+augroup qml
+au!
+au! BufRead *.qml set filetype=javascript
 augroup END

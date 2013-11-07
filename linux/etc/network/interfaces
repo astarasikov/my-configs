@@ -1,0 +1,14 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+#allow-hotplug usb0
+#iface usb0 inet static
+#		address 192.168.7.1
+#		netmask 255.255.0.0
+#		post-up iptables -t nat -A POSTROUTING -s 192.168.7.0/24 -j MASQUERADE
+#		post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+#		pre-down iptables -t nat -D POSTROUTING -s 192.168.7.0/24 -j MASQUERADE

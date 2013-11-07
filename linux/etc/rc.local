@@ -14,12 +14,12 @@
 #echo profile > /sys/class/drm/card0/device/power_method
 #echo mid > /sys/class/drm/card0/device/power_profile
 
-if [ -d /sys/kernel/debug/vgaswitcheroo ]; then
-	echo OFF > /sys/kernel/debug/vgaswitcheroo/switch 
-fi
+#if [ -d /sys/kernel/debug/vgaswitcheroo ]; then
+#	echo OFF > /sys/kernel/debug/vgaswitcheroo/switch 
+#fi
 
-if [ -z `pidof wpa_supplicant` ]; then
-	wpa_supplicant -B -Dwext -iwlan0 -c/etc/wpa_supplicant.conf
-fi
+#if [ -z `pidof wpa_supplicant` ]; then
+#	wpa_supplicant -B -Dwext -iwlan0 -c/etc/wpa_supplicant.conf
+#fi
 
 exit 0
