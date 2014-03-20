@@ -1,0 +1,7 @@
+APT::Install-Recommends "false";
+APT::Install-Suggests "false";
+Aptitude::Auto-Install "true";
+Aptitude::Forget-New-On-Update "true";
+Aptitude::Forget-New-On-Install "true";
+Aptitude::ProblemResolver::Allow-Break-Holds "true";
+Aptitude::AutoClean-After-Update "true";

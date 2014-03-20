@@ -1,4 +1,3 @@
 # <target name>	<source device>		<key file>	<options>
-crypto_home	/dev/sda5		none	luks,tries=3
-crypto_emul	/dev/sdb3	none	luks,tries=3,noearly,noauto,quiet
-#crypto_backup	/dev/sdb4	none	luks,tries=3
+# crypto_home /dev/sda5 none luks
+crypto_home UUID=280fd8a0-add6-4f92-a16d-463cb167dfb6 none luks

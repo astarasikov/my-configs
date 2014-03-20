@@ -1,0 +1,9 @@
+[Unit]
+Description=Discrete graphics off during boot
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/gpu_poweroff.sh 0
+
+[Install]
+WantedBy=multi-user.target

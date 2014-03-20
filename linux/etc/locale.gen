@@ -3,11 +3,7 @@
 # user defined locales to /usr/local/share/i18n/SUPPORTED. If you change
 # this file, you need to rerun locale-gen.
 
-
-# ru_RU ISO-8859-5
 ru_RU.CP1251 CP1251
 ru_RU.KOI8-R KOI8-R
 ru_RU.UTF-8 UTF-8
-# ru_UA KOI8-U
-# ru_UA.UTF-8 UTF-8
-
+en_US.UTF-8

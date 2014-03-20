@@ -1,0 +1,12 @@
+[Unit]
+Description=Discrete graphics on
+Before=sleep.target
+Wants=local-system-suspend.service
+Before=local-system-suspend.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/gpu_poweroff.sh 1
+
+[Install]
+WantedBy=sleep.target

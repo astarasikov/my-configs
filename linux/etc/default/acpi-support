@@ -33,7 +33,7 @@ ACPI_HIBERNATE=false
 LOCK_SCREEN=true
 
 # Uncomment this to enable ACPI sleep when the lid screen is closed.
-#LID_SLEEP=true
+LID_SLEEP=false
 
 # On some systems pressing the wireless button only results in an event that we
 # handle, but not in some hardware enforced action. On these systems we are
@@ -50,7 +50,7 @@ LOCK_SCREEN=true
 DISPLAY_DPMS=xset
 
 # xrandr needs the output device to be named
-XRANDR_OUTPUT=LVDS1
+XRANDR_OUTPUT=eDP-1
 
 # vbetool can switch off/on the display even if no user is logged in. However,
 # there are systems that do not reset the display when coming out of suspend,

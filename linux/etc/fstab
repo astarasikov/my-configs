@@ -2,18 +2,16 @@
 #
 # <file system>		<mount point>	<type>	<options>				<dump>	<pass>
 proc			/proc			proc	defaults												0	0
-/dev/sda1		/				ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
-#/dev/sda3		/var			ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
-#/dev/sda5		/var/cache		ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
 tmpfs			/tmp            tmpfs       defaults,noatime,mode=1777                              0 0
-#/dev/sdb5		none			swap	sw														0	0
-
-/dev/sda3		/mnt/disk1		ext4	rw,errors=remount-ro,noatime,discard,nodiratime			1	2
-#/dev/cdrom1		/media/cdrom	auto	noauto,users				0	0
+/dev/disk/by-uuid/6bbe3d67-3ca1-44aa-8082-502aaa135b5a		/				ext4	defaults,errors=remount-ro,discard,nodiratime,noatime	1	1
+/dev/disk/by-uuid/b7e1d0b5-e543-381a-9977-79a8161fe480		/mnt/osx		hfsplus	defaults,ro,noatime	1	2
 
 #dm-managed deviced
 /dev/mapper/crypto_home	/home	ext4	errors=remount-ro,discard,nodiratime,noatime			1	2
-#/dev/mapper/crypto_emul	/mnt/emul	ext3	noauto,defaults,users,errors=remount-ro,noatime		0	0
+
+#/dev/mapper/crypto_backup	/mnt/backup	ext4	noauto,errors=remount-ro,discard,nodiratime,noatime			1	2
+/dev/disk/by-uuid/fb0010e2-f814-4d8e-9a8b-95c690ff1f22	/mnt/ext-linux	ext4	user,noauto,rw,errors=remount-ro,noatime,discard,nodiratime	0	0
 
 none					/var/rlog	tmpfs	defaults
 none					/sys/kernel/debug	debugfs	defaults
+none					/sys/fs/cgroup	cgroup	defaults

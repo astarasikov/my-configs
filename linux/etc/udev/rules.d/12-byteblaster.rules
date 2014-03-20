@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="09fb", MODE="0666", OWNER="root" GROUP="plugdev"

@@ -1,0 +1,11 @@
+deb http://mirror.yandex.ru/debian/ unstable main contrib non-free
+deb-src http://mirror.yandex.ru/debian/ unstable main contrib non-free
+
+deb http://mirror.yandex.ru/debian/ experimental main contrib non-free
+deb-src http://mirror.yandex.ru/debian/ experimental main contrib non-free
+
+#deb http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu quantal main 
+#deb http://ppa.launchpad.net/chromium-daily/ppa/ubuntu oneiric main
+
+deb http://ppa.launchpad.net/hansjorg/rust/ubuntu saucy main 
+

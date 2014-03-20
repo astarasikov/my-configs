@@ -1,0 +1,9 @@
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0bb4", MODE="0666", OWNER="root" GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0855", ATTRS{idProduct} =="7100", MODE="0666", OWNER="root" GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0955", ATTRS{idProduct} =="7820", MODE="0666", OWNER="root" GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", MODE="0666", OWNER="root" GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="04e8", MODE="0666", OWNER="root" GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2080", ATTRS{idProduct} =="0005", MODE="0666", OWNER="root" GROUP="plugdev"
+
+#fuck that shit
+SUBSYSTEMS=="usb", MODE="0666", OWNER="root" GROUP="plugdev"

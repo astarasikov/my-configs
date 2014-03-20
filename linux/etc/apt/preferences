@@ -1,0 +1,23 @@
+Package: *
+Pin: release a=unstable
+Pin-Priority: 700
+
+Package: *
+Pin: release a=testing
+Pin-Priority: 650
+
+Package: *
+Pin: release a=stable
+Pin-Priority: 600
+
+Package: *
+Pin: release a=experimental
+Pin-Priority: 550
+
+Package: *
+Pin: release a=quantal
+Pin-Priority: 500
+
+Package: *
+Pin: release a=oneiric
+Pin-Priority: 450

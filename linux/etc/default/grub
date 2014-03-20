@@ -7,7 +7,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
 GRUB_CMDLINE_LINUX_DEFAULT=""
-GRUB_CMDLINE_LINUX="quiet acpi_osi=\"!Windows 2009\" i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=0 i915.i915_panel_use_ssc=1 radeon.lockup_timeout=3000 pcie_aspm=force vga_switcheroo.resume_powercut=1"
+GRUB_CMDLINE_LINUX="i915.fastboot=1 i915.modeset=1 i915.lvds_channel_mode=2 i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force hid_apple.fnmode=2 irqfixup snd_hda_intel.power_save_controller=Y quiet acpi_backlight=vendor acpi_osi=Linux workqueue.power_efficient=Y ipv6.disable=1 elevator=noop"
 
 # Uncomment to enable BadRAM filtering, modify to suit your needs
 # This works with Linux (no patch required) and with any kernel that obtains
@@ -20,7 +20,7 @@ GRUB_CMDLINE_LINUX="quiet acpi_osi=\"!Windows 2009\" i915.i915_enable_rc6=1 i915
 # The resolution used on graphical terminal
 # note that you can use only modes which your graphic card supports via VBE
 # you can see them in real GRUB with the command `vbeinfo'
-GRUB_GFXMODE=1600x900
+#GRUB_GFXMODE=640x480
 
 # Uncomment if you don't want GRUB to pass "root=UUID=xxx" parameter to Linux
 #GRUB_DISABLE_LINUX_UUID=true
