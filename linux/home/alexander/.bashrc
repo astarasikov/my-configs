@@ -91,9 +91,9 @@ alias egrep='egrep --color=auto'
 fi
 
 # some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -139,10 +139,12 @@ export PATH=~/handhelds/android-sdk-linux/platform-tools:$PATH
 export PATH=/home/alexander/bin:/sbin:/home/alexander/handhelds/armv6/codesourcery/bin:$PATH
 export PATH=~/handhelds/armv6/arm-linux/:~/handhelds/android-sdk-linux/tools/:$PATH
 
+# Quartus
 export PATH=/mnt/intel-part2/work/fpga/quartus/quartus/bin:$PATH
 
 #ruby gems
 export PATH=~/.gem/ruby/2.0.0/bin:$PATH
 
-## Tizen SDK configuration
-export PATH=$PATH:/home/alexander/bin/sdk/tizen-sdk/tools
+#Go
+export GOPATH=/home/alexander/.go
+

@@ -10,7 +10,7 @@ set t_Co=256
 set noswapfile
 set nobackup
 set number
-set guifont=terminus
+set guifont=Terminus\ Bold\ 12
 set nocp
 set hlsearch
 set hls is
@@ -20,20 +20,28 @@ set mouse=a
 set ttyfast
 set lazyredraw
 
-colorscheme my
 if has("gui_running")
 	colorscheme delek
-	hi Search guibg=Orange
-	hi Search guifg=Black
+	hi Search guibg=Orange guifg=Black
 else
-	colorscheme zellner
-	hi Search ctermbg=red
-	hi Search ctermfg=white
+	colorscheme evening
+	hi Pmenu ctermfg=magenta ctermbg=black guifg=Magenta guibg=Black
+	hi PmenuSel ctermfg=white ctermbg=magenta guifg=White guibg=Magenta
+	hi Search ctermfg=white ctermbg=red guibg=Orange guifg=Black
 endif
 
+let g:clang_user_options='|| exit 0'
+let g:clang_complete_auto=1
+let g:clang_complete_copen=1
+let g:clang_complete_macros=1
+let g:clang_complete_patterns=1
+let g:clang_hl_errors=1
+let g:clang_auto_user_options='.clang_complete'
+let g:clang_debug=1
+let g:clang_use_library=1
+let g:clang_library_path='/usr/lib/x86_64-linux-gnu/'
+
 " let g:clang_debug=1
-" let g:clang_complete_auto=1
-" let g:clang_hl_errors=1
 " let g:clang_user_options='-I/usr/include/c++/4.7 -I/usr/include/c++/4.7/i486-linux-gnu -I/usr/include/c++/4.7/backward'
 
 map <F5> :wa<ENTER>:make<ENTER>
@@ -87,4 +95,14 @@ augroup END
 augroup qml
 au!
 au! BufRead *.qml set filetype=javascript
+augroup END
+
+augroup go
+au!
+au! BufRead *.go set filetype=go
+augroup END
+
+augroup rust
+au!
+au! BufRead *.rs set filetype=rust
 augroup END

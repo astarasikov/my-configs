@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/alexander/builds/panel/stalonetray-0.8.1/src'
-let g:netrw_dirhist_2='/home/alexander/.themes/GEIGH2D-SHELL/gnome-shell/assets'
-let g:netrw_dirhist_3='/home/alexander/.themes/Boje-Green/metacity-1'
-let g:netrw_dirhist_4='/home/alexander/handhelds/omap/uefi.git/UefiCpuPkg/Universal/Acpi/S3Resume2Pei/X64'
-let g:netrw_dirhist_5='/home/alexander/handhelds/htc/lk'
-let g:netrw_dirhist_6='/home/alexander/builds/qemu/qemu-1.4.0'
-let g:netrw_dirhist_7='/home/alexander/.android/avd'
+let g:netrw_dirhist_cnt =0

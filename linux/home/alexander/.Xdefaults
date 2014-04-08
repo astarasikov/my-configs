@@ -1,6 +1,6 @@
 URxvt.shading:			60
 URxvt.blurRadius:		10
-URxvt.font:			xft:Terminus:pixelsize=14
+URxvt.font:			xft:Terminus:bold:pixelsize=28
 URxvt.scrollstyle:		plain
 URxvt.geometry:				100x35
 
@@ -16,7 +16,7 @@ URxvt.color6:			#40d0d0
 URxvt.color7:			#dfdfdf
 URxvt.color8:			#202020
 URxvt.color9:			#ff3f3f
-URxvt.color10:			#20ff60
+URxvt.color10:			#20ffc0
 URxvt.color11:			#ffff80
 URxvt.color12:			#8080ff
 URxvt.color13:			#ff80ff
@@ -36,4 +36,5 @@ URxvt.urlLauncher:	chromium-browser
 URxvt.matcher.button:	1
 URxvt.cursorBlink: false
 URxvt.colorUL: 		#86a2be
-Xft.dpi :96
+Xft.dpi :170
+Xcursor.size :64
