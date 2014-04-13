@@ -1,0 +1,192 @@
+#
+# MurrineGlow Blue GTK theme
+#
+
+# Set GtkSettings color scheme property.
+# This can be overriden (via an xsetting) with eg. the gnome-appearance-properties.
+gtk_color_scheme =
+"fg_color:#222
+bg_color:#e8e8e8
+base_color:#fff
+text_color:#000
+selected_bg_color:#40d000
+selected_fg_color:#ffffff
+tooltip_bg_color:#c3efc6
+tooltip_fg_color:#3c3c3c
+menu_bg_color:#3c3c3c
+menu_fg_color:#fff
+link_color:#3c3
+link_done:#c33
+"
+
+style "default"
+{
+    ########
+    # Style Properties
+    ########
+    GtkButton               ::child-displacement-x = 1
+    GtkButton               ::child-displacement-y = 1
+    GtkButton               ::default-border       = { 0, 0, 0, 0 }
+    GtkCheckButton          ::indicator-size       = 28
+
+    GtkExpander             ::expander-size        = 28
+
+    GtkMenu                 ::horizontal-padding   = 0
+    GtkMenu                 ::vertical-padding     = 0
+    GtkMenuBar              ::internal-padding     = 0
+    GtkMenuBar              ::shadow_type = GTK_SHADOW_NONE
+
+    GtkNotebook             ::tab-curvature = 0
+    GtkNotebook             ::tab-overlap = 0
+
+    GtkPaned                ::handle-size          = 6
+
+    GtkRange                ::trough-border        = 0
+    GtkRange                ::slider-width         = 28
+    GtkRange                ::stepper-size         = 28
+
+    GtkScale                ::slider-length        = 28
+    GtkScale                ::slider-width         = 28
+    GtkScale                ::trough-side-details  = 0
+
+    GtkScrollbar            ::slider-length    = 28
+    GtkScrollbar            ::slider-width    = 28
+    GtkScrollbar            ::has-secondary-forward-stepper = 1
+    GtkScrollbar            ::has-backward-stepper = 1
+    GtkScrollbar            ::has-forward-stepper = 0
+    GtkScrollbar            ::has-secondary-backward-stepper = 0
+
+    GtkToolbar              ::internal-padding     = 0
+    GtkToolbar              ::shadow_type          = GTK_SHADOW_NONE
+    GtkTreeView             ::expander-size        = 14
+    GtkTreeView             ::vertical-separator   = 0
+
+    xthickness = 0
+    ythickness = 0
+    #GtkWidget               ::focus_padding = 0
+    GtkWidget               ::link-color = @link_color 
+    GtkWidget               ::scroll-arrow-hlength = 28
+    GtkWidget               ::scroll-arrow-vlength = 28
+    GtkWidget               ::text-handle-height = 28
+    GtkWidget               ::text-handle-width = 20
+    GtkWidget               ::visited-link-color = @link_color 
+    GtkWidget               ::wide-separators = 0
+    GtkWidget               ::window-dragging = 1
+
+    fg[NORMAL]        = @fg_color
+    fg[PRELIGHT]      = @fg_color
+    fg[SELECTED]      = @selected_fg_color
+    fg[INSENSITIVE]   = darker (@bg_color)
+    fg[ACTIVE]        = @fg_color
+
+    bg[NORMAL]            =  @bg_color
+    bg[ACTIVE]            =  shade (1.02, @bg_color)
+    bg[PRELIGHT]        =  shade (1.05, @bg_color)
+    bg[SELECTED]        =  @selected_bg_color
+    bg[INSENSITIVE]        =  shade (1.03,@bg_color)
+
+    base[NORMAL]      = @base_color
+    base[PRELIGHT]    = @base_color
+    base[SELECTED]    = @selected_bg_color
+    base[INSENSITIVE] = @bg_color
+    base[ACTIVE]      = shade (0.9, @selected_bg_color)
+
+    text[NORMAL]      = @text_color
+    text[PRELIGHT]    = @text_color
+    text[SELECTED]    = @selected_fg_color
+    text[INSENSITIVE] = darker (@bg_color)
+    text[ACTIVE]      = @selected_fg_color
+
+    engine "murrine" 
+    {
+        rgba            = TRUE  # FALSE = disabled, TRUE = enabled
+        animation           = TRUE
+        colorize_scrollbar  = TRUE
+        contrast            = 1.0   # 0.8 for less contrast, more than 1.0 for more contrast on borders
+        glazestyle          = 0     # 0 = flat highlight, 1 = curved highlight, 2 = concave style, 3 = top curved highlight, 4 = beryl highlight
+        gradient_shades     = {1.09,1.01,1.01,0.9} # default: {1.1,1.0,1.0,1.1}
+        highlight_shade    = 1.04  # set highlight amount for buttons or widgets
+        lightborder_shade   = 1.2   # sets lightborder amount for buttons or widgets
+        lightborderstyle    = 0     # 0 = lightborder on top side, 1 = lightborder on all sides
+        listviewheaderstyle = 1     # 0 = flat, 1 = glassy, 2 = raised
+        listviewstyle       = 0     # 0 = nothing, 1 = dotted
+        menubaritemstyle    = 0     # 0 = menuitem look, 1 = button look
+        menubarstyle        = 0     # 0 = flat, 1 = glassy, 2 = gradient, 3 = striped
+        menuitemstyle       = 1     # 0 = flat, 1 = glassy, 2 = striped
+        menustyle           = 0     # 0 = no vertical menu stripe, 1 = display vertical menu stripe
+        reliefstyle            = 2     # 0 = flat, 1 = inset, 2 = shadow
+        roundness           = 0     # 0 = squared, 1 = old default, more will increase roundness
+        scrollbarstyle      = 0     # 0 = nothing, 1 = circles, 2 = handles, 3 = diagonal stripes, 4 = diagonal stripes and handles, 5 = horizontal stripes, 6 = horizontal stripes and handles
+        sliderstyle         = 0     # 0 = nothing added, 1 = handles
+        stepperstyle        = 1     # 0 = standard, 1 = integrated stepper handles, 2 = unknown
+        toolbarstyle        = 2     # 0 = flat, 1 = glassy, 2 = gradient
+    }
+}
+
+style "menu"
+{
+    bg[SELECTED] = @selected_bg_color
+    bg[NORMAL]   = @menu_bg_color
+    bg[PRELIGHT] = @selected_bg_color
+    bg[ACTIVE]   = @menu_bg_color
+    bg[INSENSITIVE] = @menu_bg_color
+    fg[NORMAL]   = @menu_fg_color
+    fg[PRELIGHT] = @selected_fg_color
+    fg[SELECTED] = @selected_fg_color
+    fg[ACTIVE]   = @selected_fg_color
+    fg[INSENSITIVE] = @menu_bg_color
+    text[NORMAL]   = @text_color
+    text[PRELIGHT] = @selected_fg_color
+    text[SELECTED] = @selected_fg_color
+    text[ACTIVE]   = @selected_fg_color
+    text[INSENSITIVE] = @menu_bg_color
+}
+
+style "menu-item"
+{
+    bg[SELECTED] = @selected_bg_color
+    bg[PRELIGHT] = @selected_bg_color
+    fg[SELECTED] = @selected_fg_color
+    fg[PRELIGHT] = @selected_fg_color
+    fg[NORMAL]   = @menu_fg_color
+}
+
+style "separator-menu-item"
+{
+    GtkSeparatorMenuItem::horizontal-padding = 0
+    # We are setting the desired height by using wide-separators
+    # There is no other way to get the odd height ...
+    GtkWidget::wide-separators = 1
+    GtkWidget::separator-width = 1
+    GtkWidget::separator-height = 1
+}
+
+style "tooltips"
+{
+    bg[NORMAL] = @tooltip_bg_color
+    bg[ACTIVE] = @tooltip_bg_color
+    bg[PRELIGHT] = shade (0.85, @tooltip_bg_color)
+    bg[SELECTED] = shade (0.85, @tooltip_bg_color)
+    bg[INSENSITIVE] = @tooltip_bg_color
+
+    fg[NORMAL] = @tooltip_fg_color
+    fg[ACTIVE] = @tooltip_fg_color
+    fg[PRELIGHT] = darker (@tooltip_fg_color)
+    fg[SELECTED] = darker (@tooltip_fg_color)
+    fg[INSENSITIVE] = @tooltip_fg_color
+}
+
+#########################################
+# Matches
+#########################################
+
+# Default style is applied to every widget
+class "GtkWidget"    style "default"
+
+widget_class "*<GtkMenuBar>*"           style "menu"
+widget_class "*<GtkMenu>*"              style "menu"
+widget_class "*<GtkMenuItem>*"          style "menu-item"
+widget_class "*<GtkSeparatorMenuItem>*" style "separator-menu-item"
+
+widget "gtk-tooltip*" style "tooltips"
+

@@ -1,0 +1,42 @@
+#include "/home/alexander/.themes/Numix-OSX-master/gtk-2.0/gtkrc"
+include "/home/alexander/.themes/soft_green/gtk-2.0/gtkrc"
+
+gtk-icon-theme-name = "Humanity-Colors"
+gtk-font-name = "Roboto Condensed, Condensed 10"
+
+gtk-entry-select-on-focus = 1
+gtk-entry-capslock-feedback = 1
+gtk-entry-password-hint = 0
+gtk-enable-animations = 0
+
+gtk-cursor-blink = 0
+gtk-menu-images = 1
+gtk-button-images = 1
+gtk-toolbar-style = GTK_TOOLBAR_BOTH
+gtk-can-change-accels = 1
+
+#gtk-key-theme-name = "Emacs"
+gtk-key-theme-name = "MacKey"
+
+gtk-menu-bar-popup-delay=0
+gtk-menu-popdown-delay=0
+gtk-menu-popup-delay=0
+gtk-icon-sizes="panel-menu=32,32:panel=32,32:gtk-menu=32,32:gtk-large-toolbar=48,48:gtk-small-toolbar=32,32:gtk-button=32,32"
+
+gtk-xft-dpi = 170
+
+style "default-font" {
+	fontset = "Roboto Condensed, Condensed 10"
+	font_name = "Roboto Condensed, Condensed 10"
+}
+
+class "*" style "default-font"
+
+binding gtk-mac-cmd-c
+{
+  bind "<meta>x" { "cut-clipboard" () };
+  bind "<meta>c" { "copy-clipboard" () };
+  bind "<meta>v" { "paste-clipboard" () };
+}
+
+class "*" binding "gtk-mac-cmd-c"
