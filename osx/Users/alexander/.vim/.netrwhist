@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/alexander/Documents/workspace/programming/projects/git/sxge'
-let g:netrw_dirhist_2='/Developer/NVIDIA/CUDA-5.5/samples/5_Simulations/particles_mod'
-let g:netrw_dirhist_3='/Users/alexander/build-TouchTest-Desktop_Qt_5_1_1_clang_64bit-Debug/TouchTest.app/Contents/MacOS'
-let g:netrw_dirhist_4='/Users/alexander/.vim'

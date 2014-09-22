@@ -23,3 +23,8 @@ augroup xdc
 au!
 au! BufRead *.xdc set filetype=javascript
 augroup END
+
+augroup nu
+au!
+au! BufRead *.nu set filetype=lisp
+augroup END

@@ -1,16 +1,40 @@
 set nocompatible
+
+" VUNDLE =====================================================================
+set rtp+=~/.vim/bundle/vundle/
+call vundle#begin()
+Plugin 'gmarik/vundle'
+Plugin 'majutsushi/tagbar'
+Plugin 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'bling/vim-airline'
+Plugin 'valloric/YouCompleteMe'
+Plugin 'oblitum/rainbow'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-vinegar'
+Plugin 'tpope/vim-surround'
+Plugin 'airblade/vim-gitgutter'
+
+call vundle#end()
+" VUNDLE END
+
 filetype on
 filetype plugin on
+filetype plugin indent on
 syntax on
 
+set smarttab
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set autoindent
+set smartindent
+
 set t_Co=256
 set noswapfile
 set nobackup
 set number
-set guifont=terminus
 set nocp
 set hlsearch
 set hls is
@@ -19,9 +43,19 @@ set colorcolumn=80
 set mouse=a
 set ttyfast
 set lazyredraw
+set synmaxcol=150
+set laststatus=2
+set novisualbell
+set noerrorbells
+set t_vb=
 
+" Fonts
+set guifont=UbuntuMono\ 13
 colorscheme my
 if has("gui_running")
+	set guioptions -=m
+	set guioptions -=T
+	set guioptions -=r
 	colorscheme delek
 	hi Search guibg=Orange
 	hi Search guifg=Black
@@ -31,20 +65,26 @@ else
 	hi Search ctermfg=white
 endif
 
-let g:clang_user_options='|| exit 0'
-let g:clang_complete_auto=1
-let g:clang_complete_copen=1
-let g:clang_complete_macros=1
-let g:clang_complete_patterns=1
-let g:clang_hl_errors=1
-let g:clang_auto_user_options='.clang_complete'
-let g:clang_debug=1
-let g:clang_use_library=1
-let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/'
+au FileType c,cpp,objc,objcpp call rainbow#load()
 
-" let g:clang_debug=1
-" let g:clang_user_options='-I/usr/include/c++/4.7 -I/usr/include/c++/4.7/i486-linux-gnu -I/usr/include/c++/4.7/backward'
+" AIRLINE
+let g:airline_theme='powerlineish'
 
+" TagBar
+let g:tagbar_left=1
+let g:tagbar_width=30
+
+" Misc
+let g:rainbow_active=1
+let g:syntastic_enable_balloons = 1
+let g:syntastic_enable_highlighting = 1
+
+" YCM
+let g:ycm_global_ycm_extra_conf='~/.vim/plugin_conf/ycm_extra_conf.py'
+nnoremap <leader>d :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>e :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+" Key Mappings
 map <F5> :wa<ENTER>:make<ENTER>
 map <F1> :NERDTree<ENTER>
 map <F2> :bp<ENTER>
@@ -52,17 +92,15 @@ map <F3> :bn<ENTER>
 map <F4> :bd<ENTER>
 map <F6> :vsp<ENTER>
 map <F7> :sp<ENTER>
-
 map <F9> :make run<ENTER>
+map <F10> :TagbarToggle<ENTER>
+map <F11> :set foldmethod=syntax<ENTER>
+map <F12> :PluginInstall!<ENTER>
+
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
-"imap <up> <nop>
-"imap <down> <nop>
-"imap <left> <nop>
-"imap <right> <nop>
 
 function MyCD()
 	if bufname("") !~ "(^\[A-Za-z0-9\]*://)\{1}"
@@ -71,6 +109,7 @@ function MyCD()
 endfunction
 autocmd BufEnter * call MyCD()
 
+" Custom file types
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_bufer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
